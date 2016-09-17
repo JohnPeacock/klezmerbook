@@ -10,6 +10,9 @@
 * [ImageMagick](http://www.imagemagick.org/)
 * [ComixNo2](http://culmus.sourceforge.net/fancy/index.html) font
 
+As of this version of the README, Fedora 24 has 2.19.47. This is new enough to support some of the goals described
+below. Ubuntu 16.04 has 2.18.2. This is *NOT* new enough to implement the LilyJAZZ proposal listed below.
+
 ## Plans
 
 ### Eliminate PDFtk requirement
@@ -29,6 +32,7 @@ Yiddish text in these scores.
 * [Mimicking the Real Book Look](http://leighverlag.blogspot.ca/2015/12/mimicking-real-book-look.html)
 * [LilyPond's Look & Feel](http://lilypondblog.org/2014/09/lilyponds-look-and-feel/)
 * [Culmus Fancy Hebrew Fonts](http://culmus.sourceforge.net/fancy/index.html) - Ktav Yad being the most likely choice
+* [openLilyLib](https://openlilylib.org/)
 
 ### Eliminate warnings
 
