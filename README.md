@@ -1,2 +1,2 @@
 # klezmerbook
-Lilypond sources for the songbook of Shpilkes Klezmer
+[LilyPond](http://lilypond.org/) sources for the songbook of Shpilkes Klezmer
