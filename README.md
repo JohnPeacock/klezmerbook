@@ -24,6 +24,10 @@ There are jazz style fonts available for [LilyPond](http://lilypond.org/)
 now. I would like to investigate going to a jazz style presentation using
 one of these.
 
+* [LilyJAZZ](http://lilypondblog.org/2013/09/lilypond-and-lilyjazz/)
+* [Mimicking the Real Book Look](http://leighverlag.blogspot.ca/2015/12/mimicking-real-book-look.html)
+* [LilyPond's Look & Feel](http://lilypondblog.org/2014/09/lilyponds-look-and-feel/)
+
 ### Eliminate warnings
 
 Goes without saying...
