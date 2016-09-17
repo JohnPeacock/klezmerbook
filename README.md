@@ -12,7 +12,7 @@
 * [ComixNo2](http://culmus.sourceforge.net/fancy/index.html) font
 
 As of this version of the README, Fedora 24 has 2.19.47. This is new enough to support some of the goals described
-below. Ubuntu 16.04 has 2.18.2. This is *NOT* new enough to implement the LilyJAZZ proposal listed below.
+below. Ubuntu 16.04 has 2.18.2. This is **NOT** new enough to implement the LilyJAZZ proposal listed below.
 
 ## Tooling
 * ![](images/overvio.png) [Overv.io](https://overv.io/dickschoeller/klezmerbook/) task board
