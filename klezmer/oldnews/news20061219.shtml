@@ -1,0 +1,49 @@
+<a name="news20061219"></a>
+<h5>December 19, 2006</h5>
+<p>
+I had added the tenor and trombone parts to
+<a href="#AbiGezunt">Abi Gezunt</a>, but had neglected to add the links to them
+in this page.  That has been remedied.  I also fixed the vocalization ni the
+yiddish title.
+</p>
+
+<p>
+I upgraded the version of LilyPond again.  I am at 2.10.2 now.  I've been
+running convert-ly on the sources bring them up to version.  The only
+difference there should be the version number in the footer of the final page.
+</p>
+
+<p>
+I have also put the comicbook style font back into the bass parts.  What I
+observed is that these are read and print just fine using Acrobat on Windows.
+The display just fine, but I can't get them to print using KPDF on my Linux
+box.  Acrobat on Linux won't read them.  If you have other observations or
+find this to be a problem,
+<a href="mailto:schoeller@comcast.net">let me know</a>.
+</p>
+
+<p>
+The following were run through convert-ly and have the fun returned to the
+bass part.
+</p>
+<ul>
+<li><a href="#AbiGezunt">Abi Gezunt</a></li>
+<li><a href="#AleBrider">Ale Brider</a></li>
+<li><a href="#AlterTsigayner">Der Alter Tsigayner</a></li>
+<li><a href="#ArtsaAlinu">Artsa Alinu</a></li>
+<li><a href="#BayAGlezeleMashke">Bay a Glezele Mashke</a></li>
+<li><a href="#BayMirBistuSheyn">Bay Mir Bistu Sheyn</a></li>
+<li><a href="#BaymRebnInPalestina">Baym Rebn in Palestina</a></li>
+<li><a href="#BolterBulgar">Bolter Bulgar</a></li>
+<li><a href="#Bulgar_17">Bulgar 17</a></li>
+<li><a href="#FlatbushWaltz">Flatbush Waltz</a></li>
+<li><a href="#Freylekhs2">Freylekhs 2 (K. 1-2)</a></li>
+<li><a href="#Freylekhs4">Freylekhs 4 (K. 1-4)</a></li>
+<li><a href="#Freylekhs5">Freylekhs 5 (K. 1-5)</a></li>
+<li><a href="#Freylekhs9">Freylekhs 9 (K. 1-9)</a></li>
+<li><a href="#FreylekhsInCm">Freylekhs in Cm</a></li>
+<li><a href="#FreylekhsInDm">Freylekhs in Dm</a></li>
+<li><a href="#FreylekhsMedley">Freylekhs Medley</a></li>
+<li><a href="#FunDerKhupe2">Fun Der Khupe #2 (K. 1-3)</a></li>
+</ul>
+

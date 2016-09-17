@@ -1,0 +1,28 @@
+<a name="news20050612"></a>
+<h5>June 12, 2005</h5>
+
+<p>
+I have changed the file names of many of the files.  This is an effort to
+make it so that the alphabetize cleanly if I print several of them together.
+The links on this page look the same.  It is only the filenames that have
+changed.  However, if you are copying the files down to a local directory
+to organize them, you might want to delete that and restart.  The old
+<a href="oldpdf/">PDFs</a> and <a href="oldmidi/">MIDIs</a> will still be
+available for a while.
+</p>
+
+<p>
+I have upgraded to 2.5.29 of LilyPond.  This has allowed certain improvements
+in the layout of the pages.  However, it requires some tweaking after the
+upgrade to take that advantage.  So some of the songs that we haven't played
+much lately may actually look worse, not better.
+</p>
+
+<p>
+Jerry suggested that we try something simple from
+<span class="bibliotitle">The Jewish Fake Book</span> as an excercise to
+improve our improvisation.  So, at his request, I have added
+<a href="index.html#ArtsaAlinu">Artsa Alinu</a>.  Notice that I have done the
+transpositions into B&#9837; &amp; E&#9837; and provided a sample bass line.
+</p>
+

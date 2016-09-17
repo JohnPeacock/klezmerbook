@@ -1,0 +1,18 @@
+#!/bin/sh
+   newdirectory=$(echo $directory|sed -e 's/-/_/g')
+   directory=$1
+   newdirectory=$2
+   echo $directory $newdirectory
+   (
+       cd $directory
+       make clean
+       rm -rf today.lyh
+       for oldfile in *.ly *.lyh; do
+           newfile=$(echo $oldfile|sed -e "s/$directory/$newdirectory/")
+           cat $oldfile | sed -e "s/$directory/$newdirectory/g" > $newfile
+           mv $oldfile ${newfile}~
+       done
+       cp makefile makefile~
+       cat makefile~ | sed -e "s/$directory/$newdirectory/g" > makefile
+   )
+   mv $directory $newdirectory

@@ -1,0 +1,10 @@
+#!/bin/sh
+for i in */*.pdf
+do
+    pco=$(pdftk $i dumpdata|grep NumberOfPages|awk '{ print $2 }')
+    instrument=$(echo $i | cut -d '.' -f 2)
+    if [ "$pco" != "1" -a "$pco" != "2" -a "$pco" != "3" -a "$instrument" != "score" ]
+    then
+        echo $pco $i
+    fi
+done

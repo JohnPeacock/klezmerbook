@@ -1,0 +1,39 @@
+<a name="news20060322"></a>
+<h5>March 22, 2006</h5>
+<blockquote>
+  <p>
+    Spring is here, a-suh-puh-ring is here.<br/>
+    Life is skittles and life is beer.<br/>
+    I think the loveliest time of the year is the spring.<br/>
+    I do, don't you? 'Course you do.<br/>
+    <strong>- Tom Lehrer, "Poisoning Pigeons in the Park"</strong>
+  </p>
+</blockquote>
+
+<p>
+OK, back on topic.
+I have been converting over to the new version of Lilypond.
+As a result we pick up some new capabilities:
+</p>
+
+<ul>
+<li>I don't have to manually implement counting of measure repeats</li>
+<li>It is much easier to get a clean adjustment of the staves to fill,
+but not overfill, the page</li>
+<li>New adjustments are available that make controlling the locations of
+rehearsal marks much easier</li>
+</ul>
+
+<p>
+In addition, I changed the way I have organized the sources.
+Currently about half of the songs have been converted to the new version and
+new organizational system.
+</p>
+
+<p>
+Finally, I'd like to thank the band members for a great performance on Purim
+Temple Aliyah.
+As Susan so aptly put it, "Still smiling about our Purim concert?"
+<strong>The answer to that is yes and we all should be!</strong>
+</p>
+

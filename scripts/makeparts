@@ -1,0 +1,17 @@
+#!/bin/sh
+
+songname=$(ls *.score.pdf|sed -e 's/\..*//')
+echo "<a href=\"midi/${songname}.midi\"><img src=\"images/instruments/icon_midi.gif\" alt=\"MIDI\" title=\"MIDI\"/></a>"
+
+for j in *.score.pdf $(ls *.pdf | grep -v -e score -e leadsheet)
+do
+   # instrument name in file name
+   instr=$(echo $j|sed -e 's/^[^.]*\.//' -e 's/\..*$//')
+   # convert to the icon name which can be different
+   instricon=$(echo $instr|sed -e 's/Bbass/bassclarinet/' -e 's/^bass$/stringbass/' -e 's/euphonium/tuba/' -e 's/score/ensemble/' -e 's/drums/percussion/' -e 's/clarinet_easy/clarinet/' -e 's/bassfortrumpet/trumpet/')
+   # convert to the title string which has spaces and caps
+   instrument=$(echo $instr|sed -e 's/score/ensemble score/' -e 's/altosax/alto sax/' -e 's/tenorsax/tenor sax/' -e 's/Bbass/bass clarinet/' -e 's/clarinet_easy/clarinet easy/' -e 's/altoclarinet/alto clarinet/' -e 's/bassfortrumpet/Bass for Trumpet/')
+   instrument="$(for q in $instrument; do B=`echo -n "${q:0:1}" | tr "[:lower:]" "[:upper:]"`; echo -n "${B}${q:1} "; done)"
+   instrument="${instrument%"${instrument##*[![:space:]]}"}"
+   echo "<a href=\"pdf/${j}\"><img src=\"images/instruments/icon_${instricon}.jpg\" alt=\"${instrument}\" title=\"${instrument}\"/></a>"
+done

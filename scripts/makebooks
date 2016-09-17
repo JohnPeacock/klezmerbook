@@ -1,0 +1,19 @@
+#!/bin/sh
+instruments=$(ls */*.pdf | cut -d '.' -f 2 | sort -u | grep -v easy)
+for instrument in $instruments; do
+  echo $instrument
+  pdfs=$(
+    for i in */*.${instrument}.pdf; do
+      pco=$(pdftk $i dumpdata|grep NumberOfPages|awk '{print $2}')
+      length=$(echo $pco | wc -L)
+      pc=$(echo $pco | cut -b $length)
+      if [ $pc = "1" -o $pc = "3" -o $pc = "5" -o $pc = "7" -o $pc = "9" ]
+      then
+        echo $i ${LILYPOND_HOME}/samples/blankpage/blankpage.score.pdf
+      else
+        echo $i
+      fi
+    done
+  )
+  pdftk $pdfs cat output $instrument.book.pdf
+done

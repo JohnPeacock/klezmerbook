@@ -1,0 +1,37 @@
+<a name="news20061212"></a>
+<h5>December 12, 2006</h5>
+<p>
+I put the rest of the lyrics in <a href="#Rumenye">Rumenye, Rumenye</a>.  This
+should make it ready to rehearse.
+</p>
+<p>
+<strong>I rebuilt all of the PDF files.</strong>  Because of an upgrade to LilyPond, I had to
+change the parts of the source that put in the instrument names on the
+conductor's scores.  This version also seems to have problems with Comic style
+fonts I was using in the conductor's scores, the bass parts and a few other
+places.  Until I can figure out the source of that problem, I will leave things
+in a more traditional font.
+</p>
+<p>
+We are now moving into doing Yiddish songs, rather than pure instrumentals.
+Of the songs on this site, the following have lyrics on the leadsheets.
+</p>
+<ul>
+<li><a href="#AleBrider">Ale Brider</a></li>
+<li><a href="#BayMirBistuSheyn">Bay Mir Bistu Sheyn</a></li>
+<li><a href="#AGlezeleYash">A Glezele Yash</a></li>
+<li><a href="#OyfnPripetshik">Oyfn Pripetshik</a></li>
+<li><a href="#Rumenye">Rumenye, Rumenye</a></li>
+<li><a href="#ShpiltMirKlezmorimlekh">Shpilt Mir Klesmorimlach</a></li>
+<li><a href="#Tsena">Tsena</a></li>
+<li><a href="#TumBalalayke">Tum-Balalayke</a></li>
+</ul>
+<p>
+In addition, the following songs have lyrics that I haven't entered yet.  Those will be coming along soon.
+</p>
+<ul>
+<li><a href="#AlterTsigayner">Der Alter Tsigayner</a></li>
+<li><a href="#ArtsaAlinu">Artsa Alinu</a></li>
+<li><a href="#ShiruLaHashem">Shiru laHashem</a></li>
+</ul>
+

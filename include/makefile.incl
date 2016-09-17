@@ -1,0 +1,196 @@
+# -*-Makefile-*- Makefile mode for Emacs
+
+# commands used in all sorts of makes.
+TOUCH = touch
+TAR = tar
+BUNZIP2 = bunzip2
+BZIP2 = bzip2
+RM = rm -f
+MAKE = make
+CAT = cat
+ECHO = echo
+CP = cp -f
+
+# commands specific to this being a lilypond system.
+LY2DVI = lilypond
+PS2PDF = ps2pdf
+LY2PDF = $(LY2DVI) --pdf
+LY2PNG = $(LY2DVI) --png
+LILYFLAGS = -I$(LILYPOND_INCLUDE_DIR) $(LILYPOND_EXTRA_FLAGS) -dno-point-and-click -ddelete-intermediate-files
+
+ALL_INCLUDES = $(wildcard $(LILYPOND_INCLUDE_DIR)/*.ily)
+MOST_LYHS =  $(filter-out today.lyh , $(wildcard *.ily))
+TARGET = ${WEB_DEVEL_DIR}/scores
+#TARGET = /tmp/scores
+
+# need to be sure that make all is the default.
+all::
+
+# Different behavior if there are sub-directories to make.
+ifeq ("$(SUBDIRS)","")
+
+subdirs::
+	@$(ECHO) No SUBDIRS
+
+clean-subdirs::
+	@$(ECHO) No SUBDIRS
+
+tidy-subdirs::
+	@$(ECHO) No SUBDIRS
+
+book-subdirs::
+	@$(ECHO) No SUBDIRS
+
+png-subdirs::
+	@$(ECHO) No SUBDIRS
+
+install-subdirs::
+	@$(ECHO) No SUBDIRS
+
+install:: all tidy
+
+else
+
+all:: subdirs
+
+clean:: clean-subdirs
+
+tidy:: tidy-subdirs
+
+book:: book-subdirs
+
+pngs:: png-subdirs
+
+subdirs::
+	@for i in $(SUBDIRS); do (\cd $$i; $(MAKE) all); done
+
+clean-subdirs::
+	@for i in $(SUBDIRS); do (\cd $$i; $(MAKE) clean); done
+
+tidy-subdirs::
+	@for i in $(SUBDIRS); do (\cd $$i; $(MAKE) tidy); done
+
+book-subdirs::
+	@for i in $(SUBDIRS); do (\cd $$i; $(MAKE) book); done
+
+png-subdirs::
+	@for i in $(SUBDIRS); do (\cd $$i; $(MAKE) pngs); done
+
+install:: install-subdirs
+
+install-subdirs::
+	@for i in $(SUBDIRS); do (\cd $$i; $(MAKE) install); done
+
+endif
+
+allclean:: clean
+	$(RM) today.lyh
+
+clean:: tidy
+	$(RM) *.pdf *.ps *.dvi *.600pk *.midi *.gz *.tex *.latex *.png
+
+tidy::
+	$(RM) *~ "#"* core *.ps *.dvi *.log *.preview.pdf *.tex *.prev.pdf
+
+.SUFFIXES: .ly .ps .pdf .dvi
+
+%.pdf %.ps: %.ly $(LYHS) $(ALL_INCLUDES)
+	@$(RM) $@
+	$(LY2PDF) $(LILYFLAGS) $*.ly
+
+all:: today.lyh
+
+today.lyh:: $(MOST_LYHS) $(ALL_INCLUDES)
+	@$(ECHO) '\\version "'$(LILYPOND_VERSION)'"' > today.lyh
+	@$(ECHO) '#(define date-string "'`date +"%d %B %Y"`'")' >> today.lyh
+	@$(ECHO) 'lilypondVersionMarkup = \markup { "GNU LilyPond-'$(LILYPOND_VERSION)'" }' >> today.lyh
+
+ifneq ("$(PSS)", "")
+
+book:: $(SONG_NAME).pdf
+
+$(SONG_NAME).pdf:: $(PSS)
+	@$(RM) $@
+	$(CAT) $^ | $(PS2PDF) - $@
+
+else
+
+book::
+
+endif
+
+ifneq ("$(PDFS)", "")
+
+all:: $(PDFS)
+
+install::
+	mkdir -p $(TARGET)/pdf
+	$(CP) $(PDFS) $(TARGET)/pdf
+	mkdir -p $(TARGET)/midi
+	$(CP) $(SONG_NAME).score.midi  $(TARGET)/midi/$(SONG_NAME).midi
+
+endif
+
+ifneq ("$(PNGS)", "")
+
+all:: pngs
+
+pngs:: $(PNGS)
+
+%.png: %.ly $(LYHS) $(ALL_INCLUDES)
+	@$(RM) $@
+	$(LY2PNG) $(LILYFLAGS) $*.ly
+
+install::
+	mkdir -p $(TARGET)/images
+	for i in $(PNGS); do convert $$i -crop 700x155+100+18 $(TARGET)/images/$$i; done
+else
+
+pngs::
+
+endif
+
+
+ SCORETOMESOURCE = $(shell find . -name '*.score.ps')
+ PARTSTOMESOURCE = $(shell find . \( -name '*.ps' -a ! -name '*.score.ps' \) -print)
+ TOMESOURCE = $(SCORETOMESOURCE) $(PARTSTOMESOURCE)
+ SCOREPDFS = $(shell find . -name '*.score.pdf')
+ PARTSPDFS = $(shell find . \( -name '*.pdf' -a ! -name '*.score.pdf' \) -print)
+ PDFS = $(SCOREPDFS) $(PARTSPDFS)
+
+tome:: tome.pdf
+
+print-tome-source::
+	@$(ECHO) $(TOMESOURCE)
+
+print-score-tome-source::
+	@$(ECHO) $(SCORETOMESOURCE)
+
+print-parts-tome-source::
+	@$(ECHO) $(PARTSTOMESOURCE)
+
+tome.pdf:: all $(TOMESOURCE)
+	$(CAT) $(TOMESOURCE) | $(PS2PDF) - $@
+
+score-tome.pdf:: all $(SCORETOMESOURCE)
+	$(CAT) $(SCORETOMESOURCE) | $(PS2PDF) - $@
+
+parts-tome.pdf:: all $(PARTSTOMESOURCE)
+	$(CAT) $(PARTSTOMESOURCE) | $(PS2PDF) - $@
+
+scores.tar.gz:: all $(SCOREPDFS)
+	$(TAR) cfz $@ $(SCOREPDFS)
+
+parts.tar.gz:: all $(PARTSPDFS)
+	$(TAR) cfz $@ $(PARTSPDFS)
+
+ifneq ("$(SHTMLS)", "")
+
+install::
+	mkdir -p $(TARGET)/shtml
+	$(CP) $(SHTMLS) $(TARGET)/shtml
+
+endif
+
+# end of makefile.incl
+#----------------------------------------------------------------------

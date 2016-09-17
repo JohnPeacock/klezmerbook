@@ -1,0 +1,458 @@
+<a name="news2004"></a>
+<h5>December 30, 2004</h5>
+
+<p>
+Fixed a chord name in <a href="index.html#Odessa_Bulgar">Odessa Bulgar</a> at measure
+8.  It was Dm.  It should have been, and now is, A7.
+</p>
+
+<h5>December 27, 2004</h5>
+
+<p>
+Updated all the rest of the preview images.
+</p>
+
+<p>
+Cleaned up <a href="index.html#Tish_Nigun">Tish Nigun</a> with the current multipart
+approach.  Also got its page breaks and rehearsal marks cleaned up.
+</p>
+
+<p>
+Included fixes to <a href="index.html#Odessa_Bulgar">Odessa Bulgar</a> and
+<a href="index.html#Baym_Rebn">Baym Rebn in Palestina</a> identified by Susan.
+</p>
+
+<h5>December 22, 2004</h5>
+
+<p>
+Updated 20 of the preview images.  These are used in this page to give you a
+glimpse of the beginning of the melody of each song.
+</p>
+
+<p>
+Added the multiple part stuff to <a href="index.html#Kolomeike">Kolomeike</a>.  Removed
+the empty drum PDF file.
+</p>
+
+<h5>December 19, 2004</h5>
+
+<p>
+Fixed an inappropriate repeat sign in
+<a href="index.html#Odessa_Bulgar">Odessa Bulgar</a>.
+</p>
+
+<p>
+Changed the default drum rules.  This caused a regeneration of all of
+the PDF files.  The change was in order to make typesetting more closely
+match the standards recommended by the
+<a href="http://www.pas.org/">Percussive Arts Society</a>.  An easy
+<a href="http://www.audiograffiti.com.au/doc/audiograffitidrumnotation.pdf">guide</a>
+that is compliant with this standard is available from
+<a href="http://www.audiograffiti.com.au/">Audio Graffiti</a>.
+</p>
+
+<h5>December 19, 2004</h5>
+
+<p>
+Fixed some more problems identified by Susan in <a href="index.html#Baym_Rebn">Baym
+Rebn in Palestina</a>.  This includes some more changing of B to B&#9837; in
+flute part and some range adjustments.
+</p>
+
+<p>
+Started reorganizing this page.  I've moved the older update history off into
+a separate file.  Every time we pass a major milestone like changing
+repertoire, doing a big performance or upgrading my music software, I will
+move chunks of history into the "old news" file.
+</p>
+
+<p>
+Another reorganization is to move the bibliography into a separate page.
+</p>
+
+<h5>December 18, 2004</h5>
+
+<p>
+Added <a href="index.html#Odessa_Bulgar">Odessa Bulgar</a>.
+</p>
+
+<h5>December 16, 2004</h5>
+
+<p>
+Susan and I found a variety of problems in the type setting of
+<a href="index.html#Baym_Rebn">Baym Rebn in Palestina</a>.  These are now fixed.
+</p>
+
+<h5>December 13, 2004</h5>
+
+<p>
+Fixed a some problems in <a href="index.html#Baym_Rebn">Baym Rebn in Palestina</a>.
+The beginnings of some sections were missing their repeat marks.
+Also the MIDI had been generated with a repeat of the hora section.
+This is not in the recordings or in the score.
+Both problems are fixed.
+</p>
+
+<h5>December 6, 2004</h5>
+
+<p>
+Found a hack to get the titlepage back.  The titlepage is not as nice as
+it wwas.  But it is working.  All PDF files are updated as a result of that.
+</p>
+
+<p>
+I cleaned up the following list of songs.  This includes removing empty
+part files and removal of the B&#9837;, C, E&#9837; parts.  The harmonies
+that were in those are now found in the files of the specific instruments.
+I also tried to make the positions of rehearsal marks more readable and
+consistent.
+</p>
+
+<ul>
+<li><a href="index.html#Baym_Rebn">Baym Rebn in Palestina</a></li>
+<li><a href="index.html#Frailach_Medley">Frailach Medley</a></li>
+<li><a href="index.html#Kammen_1_8_Frailach">Noch a Bisel, Kammen, Volume 1, No. 8, Frailach</a></li>
+<li><a href="index.html#Kammen_1_15_Frailach">Roumanian-Serbian Frailach, Kammen, Volume 1, No. 15</a></li>
+<li><a href="index.html#Kammen_1_17_Bulgar">Bulgar, Kammen, Volume 1, No. 17</a></li>
+<li><a href="index.html#Kammen_1_18_Odesser_Bulgar">Odesser Bulgar, Kammen, Volume 1, No. 18</a></li>
+<li><a href="index.html#Kammen_1_33_Polish_Polka">Polish Polka, Kammen, Volume 1, No. 33</a></li>
+<li><a href="index.html#Kammen_1_37_Padespan">Padespan, Kammen, Volume 1, No. 37</a></li>
+<li><a href="index.html#Kammen_9_29_Hora_and_Bulgar">Roumanian Hora and Bulgar, Kammen, Volume 9, No. 29</a></li>
+<li><a href="index.html#Lebedik_un_Freilech">Lebedik un Freilech</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a></li>
+<li><a href="index.html#Sherele">Sherele</a></li>
+<li><a href="index.html#Sher_Medley">Russian Sher Medley</a></li>
+<li><a href="index.html#Tumbalalaika">Tumbalalaika</a></li>
+</ul>
+
+<p>
+<a href="index.html#Sherele">Sherele</a> also has much cleaned up piano and drum music.
+</p>
+
+<h5>December 3, 2004</h5>
+
+<p>
+Changed the titling on the Kammen pieces.  The name of the piece has been made
+more prominent than the Kammen designation.
+</p>
+
+<p>
+Updated <a href="index.html#Kammen_1_18_Odesser_Bulgar">Odesser Bulgar, Kammen, Volume 1, No. 18</a>
+to have multiple parts in the sheets for the specific instruments.
+</p>
+
+<p>
+I have found MP3 files for more of the Kammen pieces.
+</p>
+
+<h5>December 2, 2004</h5>
+
+<p>
+I upgraded to Lilypond 2.4.2.  This required a major clean up of the sources
+as there were both syntactic and semantic changes in the language.  The major
+change to the output at this time is that I have been unable to generate a
+page break between the title block and the beginning of the music.
+</p>
+
+<p>
+I also reorganized many of the songs that we are regularly playing.  I have
+started to eliminate the sheets with all of the parts for instruments of like
+key.  Instead, I have provided a melody and harmony part in the sheets for the
+specific instruments.  Thus, the clarinet sheet would contain both the clarinet
+melody and the tenor harmony.  This reorganization reflects what I believe are
+the preferred harmony parts for the different instruments.
+<strong>Correct me if I am wrong!</strong>  Changed songs are:
+</p>
+
+<ul>
+<li><a href="index.html#Kammen_1_8_Frailach">Noch a Bisel, Kammen, Volume 1, No. 8, Frailach</a></li>
+<li><a href="index.html#Kammen_1_15_Frailach">Roumanian-Serbian Frailach, Kammen, Volume 1, No. 15</a></li>
+<li><a href="index.html#Kammen_1_17_Bulgar">Bulgar, Kammen, Volume 1, No. 17</a></li>
+<li><a href="index.html#Kammen_1_33_Polish_Polka">Polish Polka, Kammen, Volume 1, No. 33</a></li>
+<li><a href="index.html#Kammen_1_37_Padespan">Padespan, Kammen, Volume 1, No. 37</a></li>
+<li><a href="index.html#Kammen_9_29_Hora_and_Bulgar">Roumanian Hora and Bulgar, Kammen, Volume 9, No. 29</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a></li>
+</ul>
+
+<p>
+The following pieces have had some clean up, but <strong>do not</strong> have
+multiple parts per instrument.  Their lengths were prohibitive.
+</p>
+
+<ul>
+<li><a href="index.html#Frailach_Medley">Frailach Medley</a></li>
+<li><a href="index.html#Sher_Medley">Russian Sher Medley</a></li>
+</ul>
+
+<p>
+Finally, I added one new song to the repository.  <a href="index.html#Baym_Rebn">Baym
+Rebn in Palestina</a> is a hora and frailach.  I was able to find an
+arrangement for the frailach.  The hora part is partially arranged and still
+in progress.
+</p>
+
+<h5>November 4, 2004</h5>
+
+<p>
+Added <a href="index.html#Tangissimo">Tangissimo</a>, a klezmerized tango by Reiner
+Oberbeck.
+</p>
+
+<h5>November 2, 2004</h5>
+
+<p>
+Added <a href="index.html#Tumbalalaika">Tumbalalaika</a> in an arrangement for flute
+melody with guitar and bass accompaniment.  I may later add violin to that
+mix.
+</p>
+
+<h5>November 1, 2004</h5>
+
+<p>
+I discovered another problem with all of the MIDI files that I was generating
+with LilyPond.  These have all been updated.
+</p>
+
+<p>
+I made some minor changes on some of the songs we played at the last session.
+I added accordion parts to some of them as well.  Finally, I added a new piece.
+<a href="index.html#Kammen_1_15_Frailach">Kammen, Volume 1, No. 15</a> is called both
+Roumanian-Serbian and Frailach in the Kammen book.
+The beginning part is also known Shtiler Bulgar.
+</p>
+
+<ul>
+<li><a href="index.html#Kammen_1_15_Frailach">Kammen, Volume 1, No. 15, Roumanian-Serbian</a></li>
+<li><a href="index.html#Kammen_1_17_Bulgar">Kammen, Volume 1, No. 17, Bulgar</a></li>
+<li><a href="index.html#Kammen_1_33_Polish_Polka">Kammen, Volume 1, No. 33, Polish Polka</a></li>
+<li><a href="index.html#Kammen_1_37_Padespan">Kammen, Volume 1, No. 37, Padespan</a></li>
+</ul>
+
+
+<h5>September 24, 2004</h5>
+
+<p>
+I have put out updates for 3 of the pieces that we are working on.
+Also, some corrections in other pieces.
+</p>
+
+<p>
+The <a href="index.html#Frailach_Medley">Frailach Medley</a> and
+<a href="index.html#Sids_Freylekh">Sid's Freylekh</a> both contained an error
+in the trombone/baritone part.  The last 3 notes of both endings of
+Sid's B section were incorrect.  This has been resolved.
+</p>
+
+<p>
+I discovered problems in the way that MIDI was being generated by
+LilyPond when grace notes are present.  In some cases voices would get
+out of synchronization.  This can occur if one instrument has grace
+notes and another doesn't.  This is correctable with no loss.  It can
+also occur if a grace has more than 3 notes in it.  This is not
+correctable.  I have made the MIDI for those instances with 4 note
+graces omit some of the notes.
+<a href="index.html#Kammen_1_8_Frailach">Kammen, Volume 1, No. 8</a> is
+typical of the latter problem.  <strong>The MIDI correction process is
+ongoing.  More updates will be done on other pieces.</strong>
+</p>
+
+<p>
+Finally, some of the pieces were incomplete.  I have resolved that
+issue.
+</p>
+
+<ul>
+<li><a href="index.html#Frailach_Medley">Frailach Medley</a></li>
+<li><a href="index.html#Kammen_1_2_Frailach">Kammen, Volume 1, No. 2</a></li>
+<li><a href="index.html#Kammen_1_6_Frailach">Kammen, Volume 1, No. 6, Frailach, A Yuhr Erst Noch mein Chasene</a></li>
+<li><a href="index.html#Kammen_1_8_Frailach">Kammen, Volume 1, No. 8, Frailach, Noch a Bisel</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a></li>
+<li><a href="index.html#Sids_Freylekh">Sid's Freylekh</a></li>
+</ul>
+
+<h5>September 9, 2004</h5>
+
+<p>
+I have put out updates for 4 of the pieces that we are working on.  There are
+errors corrected in several of the parts.  I have also focused on making the
+trumpet parts be more in range and complete.  To that end I added a trumpet
+specific version of the B&#9837; multipart music for <a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a>.
+</p>
+
+<ul>
+<li><a href="index.html#Frailach_Medley">Frailach Medley</a></li>
+<li><a href="index.html#Sher_Medley">Sher Medley</a></li>
+<li><a href="index.html#Kammen_1_8_Frailach">Kammen, Volume 1, No. 8, Frailach, Noch a Bisel</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a></li>
+</ul>
+
+<h5>July 18, 2004</h5>
+
+<p>
+I added 2 medleys that we plan to work on for the fall.  These are made up of
+pieces that we already play, arranged for seqential playing.
+</p>
+
+<ul>
+<li><a href="index.html#Frailach_Medley">Frailach Medley</a></li>
+<li><a href="index.html#Sher_Medley">Sher Medley</a></li>
+</ul>
+
+<p>
+I have updated 3 pieces with a new layout scheme.  This should make them
+easier to work with for the fall.
+</p>
+
+<ul>
+<li><a href="index.html#Kammen_1_8_Frailach">Kammen, Volume 1, No. 8, Frailach, Noch a Bisel</a></li>
+<li><a href="index.html#Kammen_9_29_Hora_and_Bulgar">Kammen, Volume 9, No. 29, Hora and Bulgar</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a></li>
+</ul>
+
+<h5>June 24, 2004</h5>
+
+<p>
+I added one more Kammen number and cleaned up the bass line on another.
+</p>
+
+<ul>
+<li><a href="index.html#Kammen_1_5_Frailach">Kammen, Volume 1, No. 5, Frailach</a></li>
+<li><a href="index.html#Kammen_1_6_Frailach">Kammen, Volume 1, No. 6, Frailach, A Yuhr Erst Noch mein Chasene</a></li>
+</ul>
+
+<h5>June 20, 2004</h5>
+
+<p>
+I reduced <a href="index.html#Sids_Freylekh">Sid's Freylekh</a> B&#9837;, C, E&#9837; to just those, eliminating the upper/lower junk.
+It turns out that the alto and the baritone were essentially the same part in octaves.  This is what happens when you do things mechanically instead of carefullly.
+</p>
+
+<h5>June 9, 2004</h5>
+<p>
+I added a few more Kammen numbers.
+</p>
+
+<ul>
+<li><a href="index.html#Kammen_1_6_Frailach">Kammen, Volume 1, No. 6, Frailach, A Yuhr Erst Noch mein Chasene</a></li>
+<li><a href="index.html#Kammen_1_7_Frailach">Kammen, Volume 1, No. 7, Frailach, Schuster und Schneider Tantz</a></li>
+<li><a href="index.html#Kammen_1_9_Frailach">Kammen, Volume 1, No. 9, Frailach</a></li>
+</ul>
+
+<p>
+All of the Kammen pieces listed on this page now have the B&#9837;, C, E&#9837; parts.
+</p>
+
+<p>
+Cleaned up on the presentation of the B&#9837;, C E&#9837; parts in many of the pieces that were already out there.
+</p>
+
+<p>
+Cleaned up <a href="index.html#Kammen_1_37_Padespan">Kammen, Volume 1, No. 37, Padespan</a> per some suggestions from
+Susan Silverman.  There is more clean up to do on this.
+</p>
+
+<p>
+<strong>A final note:</strong> the MIDI output seems to have some problems.  The tempos are OK as mentioned below.  However the instrument balances are a bit weird.  Also, grace notes sometimes mess up the timing.  I have an idea how to fix this, but I have not pursued it yet.
+</p>
+
+<h5>May 11, 2004</h5>
+<p>
+I added B&#9837; versions of the bass clef parts.  These are primarily for Michael, who is playing bass clarinet.
+</p>
+<p>
+I also tweaked things so that we are getting decent MIDI output.  LilyPond 2.2.0 was not picking up the initial tempo setting, but was picking up subsequent tempo changes.  I padded the beginning of the songs with skips so that the real initial tempo is applied as a change.
+</p>
+
+<h5>April 25, 2004</h5>
+<p>
+I've added C, B&#9837; and E&#9837; sheets for several additional pieces.
+</p>
+<ul>
+<li><a href="index.html#Kammen_9_29_Hora_and_Bulgar">Kammen, Volume 9, No. 29, Hora and Bulgar</a></li>
+<li><a href="index.html#Lebedik_un_Freilech">Lebedik un Freilech</a></li>
+<li><a href="index.html#Tish_Nigun">Tish Nigun</a></li>
+</ul>
+<p>
+For all pieces that have C, B&#9837; and E&#9837;, I've also add bass clef parts.  This is typically the trombone and bass parts.
+</p>
+
+<h5>April 13, 2004</h5>
+<p>
+I've added C, B&#9837; and E&#9837; sheets for several additional pieces.
+</p>
+
+<ul>
+<li><a href="index.html#Kammen_1_1_Frailach">Kammen, Volume 1, No. 1, Frailach</a></li>
+<li><a href="index.html#Kammen_1_18_Odesser_Bulgar">Kammen, Volume 1, No. 18, Odesser Bulgar</a></li>
+<li><a href="index.html#Kammen_1_19_Bulgar">Kammen, Volume 1, No. 19, Bulgar</a></li>
+<li><a href="index.html#Kammen_1_20_Kolomeike">Kammen, Volume 1, No. 20, Kolomeike</a></li>
+<li><a href="index.html#Kammen_1_21_Kolomeike">Kammen, Volume 1, No. 21, Kolomeike</a></li>
+<li><a href="index.html#Kammen_1_28_Russian_Sher_II">Kammen, Volume 1, No. 28, Russian Sher II</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eydn</a></li>
+<li><a href="index.html#Russian_Sher">Russian Sher</a></li>
+</ul>
+
+<h5>April 12, 2004</h5>
+<p>
+I've added 2 songs from Kammen, Volume 1, No. 8 and No. 10.
+</p>
+<p>
+I've added C, B&#9837; and E&#9837; sheets.  For songs that we have worked on recently.
+These sheets allow us to assign parts to instruments ad hoc.
+The sheets typically contain melody and one or more harmony part for instruments in the specified keys.
+Generally, the C melody will be the violin melody, the B&#9837; will be the clarinet, and the E&#9837; will be the alto sax part (if it is melody).
+The "tenor" harmony will often derive from the tenor sax part.  The "baritone" harmony will derive from the trombone part.
+</p>
+
+<h5>March 16, 2004</h5>
+<p>
+I've added 2 recordings from our last rehearsal before Purim.  These are of 
+<a href="index.html#Happy_Nigun">Happy Nigun</a> and
+<a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eden</a>.  There are videos and audios.
+The recording comes from the builtin microphone of the camera, so don't expert much.
+</p>
+
+<h5>March 4, 2004</h5>
+<p>
+This year's Purim performance will take place on March 6, 2004, at about 8:00
+PM.  This year we will be performing the following numbers, not necessarily in
+this order:
+</p>
+<ul>
+<li><a href="index.html#Happy_Nigun">Happy Nigun</a></li>
+<li><a href="index.html#Kammen_1_17_Bulgar">Kammen Vol. 1, No. 17, Bulgar</a></li>
+<li><a href="index.html#Kammen_1_27_Russian_Sher_I">Kammen Vol. 1, No. 27, Russian Sher I</a></li>
+<li><a href="index.html#Lebedik_un_Freilech">Lebedik un Freilech</a></li>
+<li><a href="index.html#Nakht_in_Gan_Eden">Nakht in Gan Eden</a></li>
+<li><a href="index.html#Russian_Sher">Russian Sher</a></li>
+<li><a href="index.html#Sids_Freylekh">Sid's Freylekh</a></li>
+<li><a href="index.html#Tish_Nigun">Tish Nigun</a></li>
+</ul>
+
+<p>
+The music here was all transcribed by me using
+<a href="http://www.lilypond.org" title="">LilyPond</a>.
+The sources for both the recording and the score of each song are listed.
+Please have a listen to the MIDIs as well as the MP3s.
+You can listen to parts in isolation and you can get an idea of the
+orchestration that I have in mind.
+The MIDIs all follow the codas and the segni.
+</p>
+
+<h5>February, 2004</h5>
+<p>
+There are some new parts available.  Several songs have a melody for E&#9837; alto saxophone.  More of the pieces have parts for enough instruments to actually play from.  Unfortunately, the drum parts still are mostly stubs.  The piano parts are kind of crummy on most of the pieces.  The trombone parts are not all as interesting or complete as I would like.
+</p>
+
+<p>
+I added songs <a href="index.html#Kammen_9_12_Bulgar">12</a> and
+<a href="index.html#Kammen_9_29_Hora_and_Bulgar">29</a> from <span class="bibliotitle">Kammen International Dance and Concert Folio, No. 9</span>.
+Neither of these is fully scored.  I'm waiting for the violin and trumpet books to come in.
+</p>
+
+<p>
+In addition, I redid the piano for <span class="bibliotitle">Bay a Glezele Mashke</span>.
+Finally, there have been a number of tweaks to make the music more readable.
+I have focused on the conductor's score and the bass part.
+</p>
+
