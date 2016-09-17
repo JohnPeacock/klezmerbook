@@ -4,7 +4,14 @@
 <p>
 <a href="pdf/tangissimo.leadsheet.pdf"><img src="images/tangissimo.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/tangissimo.mp3"><img src="images/recordings/icon_reiner.jpg" alt="Reiner Oberbeck" title="Reiner Oberbeck"/></a>
-<!--#include virtual="tangissimo.parts.shtml" -->
+<a href="midi/tangissimo.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/tangissimo.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/tangissimo.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/tangissimo.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/tangissimo.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/tangissimo.drums.pdf"><img src="images/instruments/icon_percussion.jpg" alt="Drums" title="Drums"/></a>
+<a href="pdf/tangissimo.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/tangissimo.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 
 <p>

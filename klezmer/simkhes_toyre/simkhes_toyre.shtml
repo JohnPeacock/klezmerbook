@@ -3,5 +3,16 @@
 <p>
 <a href="pdf/simkhes_toyre.leadsheet.pdf"><img src="images/simkhes_toyre.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="/multimedia/mp3_from_flac/Klezmatics/Jews_With_Horns/04_-_Simkhes-toyre.mp3"><img src="images/recordings/icon_jews-with-horns.jpg" alt="MP3 of recording by the Klezmatics" title="MP3 of recording by The Klezmatics"/></a>
-<!--#include virtual="simkhes_toyre.parts.shtml" -->
+<a href="midi/simkhes_toyre.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/simkhes_toyre.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/simkhes_toyre.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/simkhes_toyre.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/simkhes_toyre.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/simkhes_toyre.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/simkhes_toyre.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/simkhes_toyre.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/simkhes_toyre.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/simkhes_toyre.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/simkhes_toyre.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/simkhes_toyre.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

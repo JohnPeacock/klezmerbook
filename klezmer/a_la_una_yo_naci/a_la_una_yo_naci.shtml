@@ -7,5 +7,17 @@
 <a href="mp3/"><img src="" alt="MP3 of a recording from " title="MP3 of a recording from "/></a>
 -->
 
-<!--#include virtual="a_la_una_yo_naci.parts.shtml" -->
+<a href="midi/a_la_una_yo_naci.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/a_la_una_yo_naci.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/a_la_una_yo_naci.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/a_la_una_yo_naci.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/a_la_una_yo_naci.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/a_la_una_yo_naci.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/a_la_una_yo_naci.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/a_la_una_yo_naci.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/a_la_una_yo_naci.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/a_la_una_yo_naci.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/a_la_una_yo_naci.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/a_la_una_yo_naci.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/a_la_una_yo_naci.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

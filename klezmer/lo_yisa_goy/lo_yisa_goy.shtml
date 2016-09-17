@@ -3,5 +3,15 @@
 <p>
 <a href="pdf/lo_yisa_goy.leadsheet.pdf"><img src="images/lo_yisa_goy.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <!-- <a href="mp3/lo_yisa_goy.mp3"><img src="images/recordings/icon_fresh_off_boat.jpg" alt="MP3 from Golem, Fresh off Boat" title="MP3 from Golem, Fresh off Boat"/></a> -->
-<!--#include virtual="lo_yisa_goy.parts.shtml" -->
+<a href="midi/lo_yisa_goy.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/lo_yisa_goy.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/lo_yisa_goy.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/lo_yisa_goy.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/lo_yisa_goy.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/lo_yisa_goy.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/lo_yisa_goy.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/lo_yisa_goy.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/lo_yisa_goy.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/lo_yisa_goy.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/lo_yisa_goy.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

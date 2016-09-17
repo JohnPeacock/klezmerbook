@@ -3,5 +3,17 @@
 
 <p>
 <a href="pdf/david_melech_yisrael.leadsheet.pdf"><img src="images/david_melech_yisrael.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
-<!--#include virtual="david_melech_yisrael.parts.shtml" -->
+<a href="midi/david_melech_yisrael.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/david_melech_yisrael.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/david_melech_yisrael.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/david_melech_yisrael.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/david_melech_yisrael.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/david_melech_yisrael.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/david_melech_yisrael.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/david_melech_yisrael.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/david_melech_yisrael.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/david_melech_yisrael.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/david_melech_yisrael.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/david_melech_yisrael.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/david_melech_yisrael.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

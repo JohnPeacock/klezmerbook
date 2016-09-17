@@ -3,6 +3,16 @@
 
 <p>
 <a href="pdf/nigun_2.leadsheet.pdf"><img src="images/nigun_2.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
-<!--#include virtual="nigun_2.parts.shtml" -->
+<a href="midi/nigun_2.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/nigun_2.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/nigun_2.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/nigun_2.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/nigun_2.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/nigun_2.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/nigun_2.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/nigun_2.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/nigun_2.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/nigun_2.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/nigun_2.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 

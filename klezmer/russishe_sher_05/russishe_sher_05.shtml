@@ -3,6 +3,15 @@
 
 <p>
 <a href="pdf/russishe_sher_05.leadsheet.pdf"><img src="images/russishe_sher_05.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
-<!--#include virtual="russishe_sher_05.parts.shtml" -->
+<a href="midi/russishe_sher_05.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/russishe_sher_05.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/russishe_sher_05.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/russishe_sher_05.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/russishe_sher_05.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/russishe_sher_05.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/russishe_sher_05.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/russishe_sher_05.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/russishe_sher_05.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/russishe_sher_05.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 

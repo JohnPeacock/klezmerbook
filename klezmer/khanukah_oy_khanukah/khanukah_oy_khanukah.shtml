@@ -3,7 +3,18 @@
 <p>
 <a href="pdf/khanukah_oy_khanukah.leadsheet.pdf"><img src="images/khanukah_oy_khanukah.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/oy_chanukah_kcb.mp3"><img src="images/recordings/icon_oy_chanukah.jpg" alt="MP3 of a recording from The Klezmer Conservatory Band, Oy, Chanukah!" title="MP3 of a recording from The Klezmer Conservatory Band, Oy, Chanukah!"/></a>
-<!--#include virtual="khanukah_oy_khanukah.parts.shtml" -->
+<a href="midi/khanukah_oy_khanukah.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/khanukah_oy_khanukah.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/khanukah_oy_khanukah.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/khanukah_oy_khanukah.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/khanukah_oy_khanukah.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/khanukah_oy_khanukah.drums.pdf"><img src="images/instruments/icon_percussion.jpg" alt="Drums" title="Drums"/></a>
+<a href="pdf/khanukah_oy_khanukah.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/khanukah_oy_khanukah.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/khanukah_oy_khanukah.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/khanukah_oy_khanukah.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/khanukah_oy_khanukah.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/khanukah_oy_khanukah.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 
 <p>

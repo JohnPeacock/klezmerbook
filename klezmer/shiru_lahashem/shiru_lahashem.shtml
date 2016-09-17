@@ -3,7 +3,17 @@
 
 <p>
 <a href="pdf/shiru_lahashem.leadsheet.pdf"><img src="images/shiru_lahashem.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
-<!--#include virtual="shiru_lahashem.parts.shtml" -->
+<a href="midi/shiru_lahashem.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/shiru_lahashem.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/shiru_lahashem.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/shiru_lahashem.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/shiru_lahashem.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/shiru_lahashem.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/shiru_lahashem.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/shiru_lahashem.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/shiru_lahashem.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/shiru_lahashem.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/shiru_lahashem.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 
 <p>

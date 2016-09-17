@@ -4,7 +4,22 @@
 <p>
 <a href="pdf/kandels_hora.leadsheet.pdf"><img src="images/kandels_hora.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/kandelshora_flying.mp3"><img src="images/recordings/icon_flyingbulgarsaleph.jpg" alt="MP3 of a recording from The Flying Bulgar Band" title="MP3 of a recording from The Flying Bulgar Band"/></a>
-<!--#include virtual="kandels_hora.parts.shtml" -->
+<a href="midi/kandels_hora.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/kandels_hora.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/kandels_hora.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/kandels_hora.alto_flute.pdf"><img src="images/instruments/icon_alto_flute.jpg" alt="Alto Flute" title="Alto Flute"/></a>
+<a href="pdf/kandels_hora.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/kandels_hora.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/kandels_hora.Bbass.pdf"><img src="images/instruments/icon_bassclarinet.jpg" alt="Bass Clarinet" title="Bass Clarinet"/></a>
+<a href="pdf/kandels_hora.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/kandels_hora.drums.pdf"><img src="images/instruments/icon_percussion.jpg" alt="Drums" title="Drums"/></a>
+<a href="pdf/kandels_hora.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/kandels_hora.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/kandels_hora.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/kandels_hora.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/kandels_hora.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/kandels_hora.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/kandels_hora.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 
 <p>

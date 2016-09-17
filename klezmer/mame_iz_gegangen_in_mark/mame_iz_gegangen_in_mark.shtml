@@ -4,5 +4,14 @@
 <p>
 <a href="pdf/mame_iz_gegangen_in_mark.leadsheet.pdf"><img src="images/mame_iz_gegangen_in_mark.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <!-- <a href="mp3/"><img src="" alt="" title=""/></a> -->
-<!--#include virtual="mame_iz_gegangen_in_mark.parts.shtml" -->
+<a href="midi/mame_iz_gegangen_in_mark.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/mame_iz_gegangen_in_mark.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

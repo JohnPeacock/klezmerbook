@@ -5,6 +5,18 @@
 <a href="pdf/kolemeyke_00.leadsheet.pdf"><img src="images/kolemeyke_00.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/kolomeike.mp3"><img src="images/recordings/icon_joy-of-klez.jpg" alt="MP3 of a recording from The Maxwell Street Klezmer Band, Joy of Klez" title="MP3 of a recording from The Maxwell Street Klezmer Band, Joy of Klez"/></a>
 <a href="mp3/kolomeike.bjorling.mp3"><img src="images/recordings/icon_myridian.jpg" alt="MP3 of recording by Myridián" title="MP3 of recording by Myridián"/></a>
-<!--#include virtual="kolemeyke_00.parts.shtml" -->
+<a href="midi/kolemeyke_00.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/kolemeyke_00.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/kolemeyke_00.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/kolemeyke_00.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/kolemeyke_00.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/kolemeyke_00.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/kolemeyke_00.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/kolemeyke_00.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/kolemeyke_00.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/kolemeyke_00.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/kolemeyke_00.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/kolemeyke_00.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/kolemeyke_00.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 

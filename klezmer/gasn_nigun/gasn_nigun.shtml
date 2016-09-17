@@ -3,6 +3,15 @@
 <p>
 <a href="pdf/gasn_nigun.leadsheet.pdf"><img src="images/gasn_nigun.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/gasn_nigun.mp3"><img src="images/recordings/icon_art_of_klezmer_clarinet.jpg" alt="MP3 clip from Margot Leverett, The Art of Klezmer Clarinet" title="MP3 clip from Margot Leverett, The Art of Klezmer Clarinet"/></a>
-<!--#include virtual="gasn_nigun.parts.shtml" -->
+<a href="midi/gasn_nigun.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/gasn_nigun.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/gasn_nigun.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/gasn_nigun.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/gasn_nigun.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/gasn_nigun.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/gasn_nigun.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/gasn_nigun.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/gasn_nigun.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/gasn_nigun.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 

@@ -4,6 +4,18 @@
 <p>
 <a href="pdf/shpilt_mir_klezmorimlekh.leadsheet.pdf"><img src="images/shpilt_mir_klezmorimlekh.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/shpilt_mir_klezmorim_cavanagh.mp3"><img src="images/recordings/icon_aelive.gif" alt="MP3 from Alpine Express, Live!" title="MP3 from Alpine Express, Live!"/></a>
-<!--#include virtual="shpilt_mir_klezmorimlekh.parts.shtml" -->
+<a href="midi/shpilt_mir_klezmorimlekh.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.bassfortrumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Bass For Trumpet" title="Bass For Trumpet"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/shpilt_mir_klezmorimlekh.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 

@@ -3,5 +3,17 @@
 <p>
 <a href="pdf/en_el_cafe_del_amanecer.leadsheet.pdf"><img src="images/en_el_cafe_del_amanecer.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="/shpilkes/demo/02_-_En_el_Cafe_del_Amanecer.mp3"><img src="images/recordings/icon_shpilkes.jpg" alt="MP3 of a recording from Shpilkes Klezmer Band" title="MP3 of a recording from Shpilkes Klezmer Band"/></a>
-<!--#include virtual="en_el_cafe_del_amanecer.parts.shtml" -->
+<a href="midi/en_el_cafe_del_amanecer.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/en_el_cafe_del_amanecer.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

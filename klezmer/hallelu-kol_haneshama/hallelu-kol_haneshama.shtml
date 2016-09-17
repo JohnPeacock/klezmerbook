@@ -3,5 +3,15 @@
 <p>
 <a href="pdf/hallelu-kol_haneshama.leadsheet.pdf"><img src="images/hallelu-kol_haneshama.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <!-- <a href="mp3/hallelu-kol_haneshama.mp3"><img src="images/recordings/icon_fresh_off_boat.jpg" alt="MP3 from Golem, Fresh off Boat" title="MP3 from Golem, Fresh off Boat"/></a> -->
-<!--#include virtual="hallelu-kol_haneshama.parts.shtml" -->
+<a href="midi/hallelu-kol_haneshama.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/hallelu-kol_haneshama.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/hallelu-kol_haneshama.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/hallelu-kol_haneshama.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/hallelu-kol_haneshama.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/hallelu-kol_haneshama.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/hallelu-kol_haneshama.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/hallelu-kol_haneshama.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/hallelu-kol_haneshama.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/hallelu-kol_haneshama.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/hallelu-kol_haneshama.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

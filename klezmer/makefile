@@ -88,6 +88,9 @@ books:: all tidy
 
 all:: toc body
 
+clean::
+	$(RM) -rf target
+
 toc:: toc.shtml
 
 toc.shtml:: */*.shtml

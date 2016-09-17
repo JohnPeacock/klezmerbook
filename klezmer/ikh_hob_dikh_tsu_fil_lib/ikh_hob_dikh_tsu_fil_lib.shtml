@@ -3,5 +3,19 @@
 <p>
 <a href="pdf/ikh_hob_dikh_tsu_fil_lib.leadsheet.pdf"><img src="images/ikh_hob_dikh_tsu_fil_lib.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/ikh_hob_dikh_tsu_fil_lib_mavens.mp3"><img src="images/recordings/icon_musicalmavens.jpg" alt="MP3 of a recording from The Musical Mavens" title="MP3 of a recording from The Musical Mavens"/></a>
-<!--#include virtual="ikh_hob_dikh_tsu_fil_lib.parts.shtml" -->
+<a href="midi/ikh_hob_dikh_tsu_fil_lib.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.altoclarinet.pdf"><img src="images/instruments/icon_altoclarinet.jpg" alt="Alto Clarinet" title="Alto Clarinet"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.drums.pdf"><img src="images/instruments/icon_percussion.jpg" alt="Drums" title="Drums"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.euphonium.pdf"><img src="images/instruments/icon_euphonium.jpg" alt="Euphonium" title="Euphonium"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/ikh_hob_dikh_tsu_fil_lib.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>

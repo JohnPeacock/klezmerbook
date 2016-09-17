@@ -5,7 +5,19 @@
 <p>
 <a href="pdf/nokh_a_glezle_vayn.leadsheet.pdf"><img src="images/nokh_a_glezle_vayn.prev.png" alt="Lead Sheet" title="Lead Sheet"/></a><br/>
 <a href="mp3/Nokh_a_Glezele_Vayn.mp3"><img src="images/recordings/icon_another-glass.jpg" alt="MP3 of a recording from The Yale Klezmer Band, Another Glass of Wine" title="MP3 of a recording from The Yale Klezmer Band, Another Glass of Wine"/></a>
-<!--#include virtual="nokh_a_glezle_vayn.parts.shtml" -->
+<a href="midi/nokh_a_glezle_vayn.midi"><img src="images/instruments/icon_midi.gif" alt="MIDI" title="MIDI"/></a>
+<a href="pdf/nokh_a_glezle_vayn.score.pdf"><img src="images/instruments/icon_ensemble.jpg" alt="Ensemble Score" title="Ensemble Score"/></a>
+<a href="pdf/nokh_a_glezle_vayn.accordion.pdf"><img src="images/instruments/icon_accordion.jpg" alt="Accordion" title="Accordion"/></a>
+<a href="pdf/nokh_a_glezle_vayn.altosax.pdf"><img src="images/instruments/icon_altosax.jpg" alt="Alto Sax" title="Alto Sax"/></a>
+<a href="pdf/nokh_a_glezle_vayn.bass.pdf"><img src="images/instruments/icon_stringbass.jpg" alt="Bass" title="Bass"/></a>
+<a href="pdf/nokh_a_glezle_vayn.clarinet.pdf"><img src="images/instruments/icon_clarinet.jpg" alt="Clarinet" title="Clarinet"/></a>
+<a href="pdf/nokh_a_glezle_vayn.drums.pdf"><img src="images/instruments/icon_percussion.jpg" alt="Drums" title="Drums"/></a>
+<a href="pdf/nokh_a_glezle_vayn.flute.pdf"><img src="images/instruments/icon_flute.jpg" alt="Flute" title="Flute"/></a>
+<a href="pdf/nokh_a_glezle_vayn.piano.pdf"><img src="images/instruments/icon_piano.jpg" alt="Piano" title="Piano"/></a>
+<a href="pdf/nokh_a_glezle_vayn.tenorsax.pdf"><img src="images/instruments/icon_tenorsax.jpg" alt="Tenor Sax" title="Tenor Sax"/></a>
+<a href="pdf/nokh_a_glezle_vayn.trombone.pdf"><img src="images/instruments/icon_trombone.jpg" alt="Trombone" title="Trombone"/></a>
+<a href="pdf/nokh_a_glezle_vayn.trumpet.pdf"><img src="images/instruments/icon_trumpet.jpg" alt="Trumpet" title="Trumpet"/></a>
+<a href="pdf/nokh_a_glezle_vayn.violin.pdf"><img src="images/instruments/icon_violin.jpg" alt="Violin" title="Violin"/></a>
 </p>
 
 <p>
