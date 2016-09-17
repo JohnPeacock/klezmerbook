@@ -15,9 +15,9 @@ As of this version of the README, Fedora 24 has 2.19.47. This is new enough to s
 below. Ubuntu 16.04 has 2.18.2. This is *NOT* new enough to implement the LilyJAZZ proposal listed below.
 
 ## Tooling
-* [Overv.io](https://overv.io/dickschoeller/klezmerbook/) task board
-* [ReviewNinja](https://app.review.ninja/dickschoeller/klezmerbook) code reviews
-* [Jenkins](http://www.schoellerfamily.org/jenkins/job/klezmerbook/) build
+* ![](images/overvio.png) [Overv.io](https://overv.io/dickschoeller/klezmerbook/) task board
+* ![](images/reviewninja-25.png) [ReviewNinja](https://app.review.ninja/dickschoeller/klezmerbook) code reviews
+* ![](images/jenkins-25.png) [Jenkins](http://www.schoellerfamily.org/jenkins/job/klezmerbook/) build
 
 ## Plans
 
