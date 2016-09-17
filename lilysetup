@@ -7,4 +7,4 @@ export LILYPOND_VERSION="$(lilypond --version | head -n 1 | cut -d ' ' -f 3)"
 export TEXINPUTS=.:/usr/share/lilypond/${LILYPOND_VERSION}/tex:/usr/share/lilypond/tex:/usr/share/texmf/tex:/usr/share/texmf/tex/latex:/usr/share/texmf/tex/latex/base:/usr/share/texmf/tex/latex/misc:/usr/share/texmf/tex/latex/graphics
 
 # destination where to send "make install".
-export WEB_DEVEL_DIR=${HOME}/development/web/linuxlap
+export WEB_DEVEL_DIR=${LILYPOND_HOME}/target

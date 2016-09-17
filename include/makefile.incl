@@ -21,6 +21,8 @@ LILYFLAGS = -I$(LILYPOND_INCLUDE_DIR) $(LILYPOND_EXTRA_FLAGS) -dno-point-and-cli
 ALL_INCLUDES = $(wildcard $(LILYPOND_INCLUDE_DIR)/*.ily)
 MOST_LYHS =  $(filter-out today.lyh , $(wildcard *.ily))
 TARGET = ${WEB_DEVEL_DIR}/scores
+SCOREMIDI = $(SONG_NAME).score.midi
+
 #TARGET = /tmp/scores
 
 # need to be sure that make all is the default.
@@ -126,8 +128,7 @@ all:: $(PDFS)
 install::
 	mkdir -p $(TARGET)/pdf
 	$(CP) $(PDFS) $(TARGET)/pdf
-	mkdir -p $(TARGET)/midi
-	$(CP) $(SONG_NAME).score.midi  $(TARGET)/midi/$(SONG_NAME).midi
+	if [ -f $(SCOREMIDI) ]; then mkdir -p $(TARGET)/midi; $(CP) $(SONG_NAME).score.midi  $(TARGET)/midi/$(SONG_NAME).midi; fi
 
 endif
 
