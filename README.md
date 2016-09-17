@@ -6,7 +6,7 @@
 * [LilyPond](http://lilypond.org/)
 * [gnu make](http://www.gnu.org/software/make)
 * [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
-** [Add pdftk newer Fedora](https://ask.fedoraproject.org/en/question/73364/pdftk-substitute-for-fedora-21-and-22/)
+  * [Add pdftk newer Fedora](https://ask.fedoraproject.org/en/question/73364/pdftk-substitute-for-fedora-21-and-22/)
 * [ImageMagick](http://www.imagemagick.org/)
 * [ComixNo2](http://culmus.sourceforge.net/fancy/index.html) font
 
