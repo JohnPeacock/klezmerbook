@@ -33,6 +33,7 @@ Yiddish text in these scores.
 * [LilyPond's Look & Feel](http://lilypondblog.org/2014/09/lilyponds-look-and-feel/)
 * [Culmus Fancy Hebrew Fonts](http://culmus.sourceforge.net/fancy/index.html) - Ktav Yad being the most likely choice
 * [openLilyLib](https://openlilylib.org/)
+* [Open LilyPond Fonts](https://github.com/OpenLilyPondFonts)
 
 ### Eliminate warnings
 
