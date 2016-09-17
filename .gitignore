@@ -1,4 +1,7 @@
 *.pdf
 *.png
 *.midi
+*.ps
 today.lyh
+#*#
+.#*
