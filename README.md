@@ -2,7 +2,8 @@
 
 [LilyPond](http://lilypond.org/) sources for the songbook of Shpilkes Klezmer
 
-## Required Software
+## Getting Started
+### Required Software
 * [LilyPond](http://lilypond.org/)
 * [gnu make](http://www.gnu.org/software/make)
 * [PDFtk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
@@ -12,6 +13,11 @@
 
 As of this version of the README, Fedora 24 has 2.19.47. This is new enough to support some of the goals described
 below. Ubuntu 16.04 has 2.18.2. This is *NOT* new enough to implement the LilyJAZZ proposal listed below.
+
+## Tooling
+* [Overv.io](https://overv.io/dickschoeller/klezmerbook/) task board
+* [ReviewNinja](https://app.review.ninja/dickschoeller/klezmerbook) code reviews
+* [Jenkins](http://www.schoellerfamily.org/jenkins/job/klezmerbook/) build
 
 ## Plans
 
