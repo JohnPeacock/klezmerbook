@@ -16,6 +16,6 @@
  PDFS = $(PSS:.ps=.pdf)
  PNGS = $(PREVSRC:.ly=.png)
 
- SHTMLS = $(SONG_NAME).shtml $(SONG_NAME).parts.shtml
+ SHTMLS = $(SONG_NAME).shtml
 
 include $(LILYPOND_INCLUDE_DIR)/makefile.incl
