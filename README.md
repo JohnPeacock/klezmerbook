@@ -22,11 +22,13 @@ move forward.
 
 There are jazz style fonts available for [LilyPond](http://lilypond.org/)
 now. I would like to investigate going to a jazz style presentation using
-one of these.
+one of these. This might also entail changing fonts for the Hebrew and
+Yiddish text in these scores.
 
 * [LilyJAZZ](http://lilypondblog.org/2013/09/lilypond-and-lilyjazz/)
 * [Mimicking the Real Book Look](http://leighverlag.blogspot.ca/2015/12/mimicking-real-book-look.html)
 * [LilyPond's Look & Feel](http://lilypondblog.org/2014/09/lilyponds-look-and-feel/)
+* [Culmus Fancy Hebrew Fonts](http://culmus.sourceforge.net/fancy/index.html) - Ktav Yad being the most likely choice
 
 ### Eliminate warnings
 
