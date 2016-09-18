@@ -25,7 +25,7 @@ instrumentMarkup = \violinInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \violinplustenorsubscore
+        \transpose e d' { \violinplustenorsubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

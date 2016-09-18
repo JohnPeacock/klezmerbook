@@ -29,7 +29,7 @@ instrumentMarkup = \fluteInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \fluteplusaltosubscore
+        \transpose e d { \fluteplusaltosubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

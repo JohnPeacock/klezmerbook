@@ -18,7 +18,7 @@ instrumentMarkup = \tromboneInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \trombonesubscore
+        \transpose e d { \trombonesubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

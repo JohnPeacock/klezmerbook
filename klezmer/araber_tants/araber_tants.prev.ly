@@ -13,7 +13,7 @@
 instrumentMarkup = \markup { "" }
 
 \score {
-    \previewsubscore
+    \transpose e d { \previewsubscore }
     \include "preview-header.ily"
     \layout {
         \include "translators.ily"

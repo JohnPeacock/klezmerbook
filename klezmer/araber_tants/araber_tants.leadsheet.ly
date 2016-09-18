@@ -26,7 +26,7 @@ instrumentMarkup = \leadSheetInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \leadsheetsubscore
+        \transpose e d { \leadsheetsubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

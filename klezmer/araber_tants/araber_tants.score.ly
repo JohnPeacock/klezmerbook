@@ -55,7 +55,7 @@ instrumentMarkup = \scoreInstrumentMarkup
 
 \include "book-header.ily"
 \score {
-  \mysubscore
+  \transpose e d { \mysubscore }
   \include "score-header.ily"
   \layout {
     \include "ambitus-translators.ily"
@@ -66,6 +66,6 @@ instrumentMarkup = \scoreInstrumentMarkup
 \include "articulate.ly"
 \score {
   \unfoldRepeats
-  \midisubscore
+  \transpose e d { \midisubscore }
   \midi { }
 }

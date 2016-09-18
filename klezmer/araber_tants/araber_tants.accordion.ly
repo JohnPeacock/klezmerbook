@@ -27,7 +27,7 @@ instrumentMarkup = \accordionInstrumentMarkup
     \include "book-header.ily"
     \score {
 %        \pianosubscore
-        \leadsheetsubscore
+        \transpose e d { \leadsheetsubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

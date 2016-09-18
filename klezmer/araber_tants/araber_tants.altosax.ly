@@ -16,6 +16,7 @@ positionD = {
 breakV = { \break }
 breakE = { \noBreak }
 breakBL = { \noBreak }
+breakC = { \pageBreak }
 
 \include "araber_tants.notes.ily"
 \include "staves-and-scores.ily"
@@ -53,7 +54,7 @@ altosaxsubscore = <<
 \book {
     \include "book-header.ily"
     \score {
-        \altosaxsubscore
+        \transpose e d { \altosaxsubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

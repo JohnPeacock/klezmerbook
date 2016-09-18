@@ -25,7 +25,7 @@ instrumentMarkup = \trumpetInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \trumpetplustenorsubscore
+        \transpose e d { \trumpetplustenorsubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

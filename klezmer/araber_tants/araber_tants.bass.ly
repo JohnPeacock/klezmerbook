@@ -30,7 +30,7 @@ instrumentMarkup = \bassInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \basssubscore
+        \transpose e d { \basssubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

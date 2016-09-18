@@ -25,7 +25,7 @@ instrumentMarkup = \tenorSaxophoneInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \clarinetplustenorsubscore
+        \transpose e d { \clarinetplustenorsubscore }
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

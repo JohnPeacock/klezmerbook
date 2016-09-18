@@ -1975,7 +1975,7 @@ basssectionc = {
         a,4. cis8 e4 g4 |
     }
     \alternative {
-        { a,4. cis8 e4 a4 | }
+        { e8 e4 b,8 e8 b,8 e4 | }
         { a,2 r2 | }
     }
 }
