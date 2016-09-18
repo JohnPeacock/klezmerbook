@@ -101,6 +101,9 @@ toc.shtml:: */*.shtml
 body:: body.shtml
 
 body.shtml::
-	grep -l '<h3>' */*.shtml | sed -e 's@shtml@shtml" -->@' -e 's@.*/@<!--#include virtual="@' > body.shtml
+	grep -l '<h3>' */*.shtml | sed -e 's@shtml@shtml" -->@' -e 's@.*/@<!--# include virtual="@' > body.shtml
 
 include $(LILYPOND_INCLUDE_DIR)/makefile.incl
+
+install:: all books
+	$(CP) *.book.pdf $(TARGET)/pdf
