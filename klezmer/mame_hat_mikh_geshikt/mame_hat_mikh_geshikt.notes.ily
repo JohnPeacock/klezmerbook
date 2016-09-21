@@ -612,4 +612,8 @@ previewnotes = {
     \time 2/4
     \key bes \major
     \tempo "Rubato"
+    g'16 g'16 g'8 g'8 bes'8 |
+    d''2 |
+    cis''8. bes'16 a'8 cis''8 ~ | cis''8
+    d''4 r8 |
 }
