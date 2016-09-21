@@ -60,7 +60,7 @@
 	kolemeyke_21 koyln \
 	la_vida_do_por_el_raki lebedik_un_freylekh lo_yisa_goy \
 	mah_tovu mame_hat_mikh_geshikt mame_iz_gegangen_in_mark \
-        mayim_mayim mayn_shtetl_yas \
+        mayim_mayim mayn_shtetl_yas mazel \
 	nakht_in_gan_eydn nigun_2 nigun_halelu nokh_a_bisel \
 	nokh_a_glezle_vayn \
 	odessa_bulgar_0 odessa_bulgar_3 odesser_bulgar \
