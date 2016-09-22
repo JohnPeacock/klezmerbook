@@ -70,6 +70,7 @@
 	rumeynisher_hora_un_bulgar russishe_sher_00 russishe_sher_01 \
 	russishe_sher_02 russishe_sher_05 russishe_sher_medley \
 	sadigerer_khosid sherele_00 sher_khevrisa shiru_lahashem \
+	shloymele_malkele \
 	shpilt_mir_klezmorimlekh shtiler_bulgar shuster_un_shnayder_tants \
 	sids_freylekhs simkhes_toyre skotshne_59 \
 	tangissimo terk_in_america tish_nigun trisker_rebns_khosid \
