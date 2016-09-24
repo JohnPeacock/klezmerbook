@@ -37,7 +37,7 @@
 
  SUBDIRS = \
 	00_titlepage news oldnews \
-	abi_gezunt_1 a_la_una_yo_naci ale_brider alter_tsigayner \
+	abi_gezunt_1 a_la_una_yo_naci ale_brider all_my_love alter_tsigayner \
 	am_yisrael_chai am_yisrael_chai_rockoff araber_tants \
 	artsa_alinu avre_este_abajour \
 	bay_a_glezele_mashke bay_mir_bistu_sheyn_1 baym_rebn_in_palestina \
