@@ -2,6 +2,7 @@
 
 bandm = {
     \time 3/4
+    \markA \positionA
     \repeat volta 2 {
         s2. | s2. | s2. | s2. |
         s2. | s2. | s2. | s2. |
@@ -12,11 +13,13 @@ bandm = {
         { s2. | s2. | s2. | s2. | }
     }
     \bar "||"
+    \markB \positionB \breakB
     s2. | s2. | s2. | s2. |
     s2. | s2. | s2. | s2. |
     s2. | s2. | s2. | s2. |
     s2. | s2. | s2. | s2. |
     \bar "||"
+    \markC \positionC \breakC
     s2. | s2. | s2. | s2. |
     s2. | s2. | s2. | s2. |
     s2. | s2. | s2. | s2. |
@@ -45,24 +48,25 @@ voiceone = {
     \time 3/4
     \key d \minor
     \repeat volta 2 {
-        s2. | s2. | s2. | s2. |
-        s2. | s2. | s2. | s2. |
-        s2. | s2. | s2. | s2. |
+        a'2. | cis'2. | d'2. ~ | d'4 f'4 a'4 |
+        d''2. | fis'2. | g'2. ~ | g'4 a'4 bes'4 |
+        a'2. | e'2. | f'4 e'4 d'4 | g'4 a'4 bes'4 |
     }
     \alternative {
-        { s2. | s2. | s2. | s2. | }
-        { s2. | s2. | s2. | s2. | }
+        { f'2. | d'2. | e'2. ~ | e'2. | }
+        { f'2. | e'2. | d'2. ~ | d'4 d''4 c''4 | }
     }
 
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
+    bes'4. a'8 g'4 | r4 bes'4 d''4 | a'4. gis'8 a'4 | r4 a'4 bes'4 |
+    g'4. f'8 e'4 | r4 g'4 a'4 | f'4. e'8 d'4 | r4 d''4 c''4 |
+    bes'4. a'8 g'4 | r4 bes'4 d''4 | a'4. gis'8 a'4 | r4 a'4 b'4 |
+    cis''2 cis''4 | b'4 e'4 b'4 | a'2. |
+    \ottava #1 a''8 bes''8 a''8 g''8 f''8 g''8 \ottava #0 |
 
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
+    a'2. | cis'2. | d'2. ~ | d'4 f'4 a'4 |
+    d''2. | fis'2. | g'2. ~ | g'4 a'4 bes'4 |
+    a'2. | e'2. | f'4 e'4 d'4 | g'4 a'4 bes'4 |
+    f'2. | e'2. | d'2. ~ | d'2. |
 }
 
 melodynotes = {
@@ -148,24 +152,24 @@ bassline = {
     \time 3/4
     \key d \minor
     \repeat volta 2 {
-        s2. | s2. | s2. | s2. |
-        s2. | s2. | s2. | s2. |
-        s2. | s2. | s2. | s2. |
+        d4 r4 r4 | e4 r4 r4 | f4 r4 r4 | d4 r4 r4 |
+        g4 r4 r4 | a4 r4 r4 | bes4 r4 r4 | g4 r4 r4 |
+        c4 r4 r4 | a,4 r4 r4 | d4 f4 f4 | bes,4 a,4 g,4 |
     }
     \alternative {
-        { s2. | s2. | s2. | s2. | }
-        { s2. | s2. | s2. | s2. | }
+        { a,4 r4 r4 | e4 r4 r4 | a4 cis4 cis4 | cis2 r4 | }
+        { a,4 r4 r4 | a,4 r4 r4 | d4 f4 f4 | f4-. r4 r4 | }
     }
 
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
+    d4 r4 r4 | d4 r4 r4 | d4 r4 r4  | d4 r4 r4 |
+    a,4 r4 r4 | a,4 r4 r4 | d4 r4 r4 | d4 r4 r4 |
+    d4 r4 r4 | d4 r4 r4 | d4 r4 r4 | d4 r4 r4 |
+    e4 r4 r4 | e4 r4 r4 | a4 r8 a,8 a,4 | a,4-. r4 r4 |
 
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
-    s2. | s2. | s2. | s2. |
+    d4 r4 r4 | e4 r4 r4 | f4 r4 r4 | d4 r4 r4 |
+    g4 r4 r4 | a4 r4 r4 | bes4 r4 r4 | g4 r4 r4 |
+    c4 r4 r4 | a,4 r4 r4 | d4 f4 f4 | bes,4 a,4 g,4 |
+    a,4 r4 r4 | a,4 r4 r4 | d4 f4 f4 | f4-. r4 r4 |
 }
 
 basslinemidi = {
@@ -542,7 +546,8 @@ leadsheetnotes =  {
     bes'4. a'8 g'4 | r4 bes'4 d''4 | a'4. gis'8 a'4 | r4 a'4 bes'4 |
     g'4. f'8 e'4 | r4 g'4 a'4 | f'4. e'8 d'4 | r4 d''4 c''4 |
     bes'4. a'8 g'4 | r4 bes'4 d''4 | a'4. gis'8 a'4 | r4 a'4 b'4 |
-    cis''2 cis''4 | b'4 e'4 b'4 | a'2. | a''8 bes''8 a''8 g''8 f''8 g''8 |
+    cis''2 cis''4 | b'4 e'4 b'4 | a'2. |
+    \ottava #1 a''8 bes''8 a''8 g''8 f''8 g''8 \ottava #0 |
 
     a'2. | cis'2. | d'2. ~ | d'4 f'4 a'4 |
     d''2. | fis'2. | g'2. ~ | g'4 a'4 bes'4 |

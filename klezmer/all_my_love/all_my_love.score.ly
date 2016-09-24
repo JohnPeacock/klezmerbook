@@ -56,7 +56,7 @@ subscorewithlyrics = <<
     \include "score-header.ily"
     \layout {
         \include "ambitus-translators.ily"
-        system-count = #8
+        system-count = #12
     }
 }
 

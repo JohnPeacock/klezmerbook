@@ -18,9 +18,9 @@ positionDC = {
   \BarAlignMark
 }
 
-breakAelv = { \break }
-breakAtwl = { \noBreak }
 breakA = { \break }
+breakB = { \break }
+breakC = { \break }
 
 songgroupMarkup = \markup { "Temple Aliyah Klezmer Band" }
 adddescMarkup = \markup { "" }

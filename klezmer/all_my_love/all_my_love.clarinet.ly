@@ -68,7 +68,7 @@ clarinetplustenorsubscore = <<
 }
 
 latexoptions=twoside
-            system-count = #6
+            system-count = #9
         }
     }
 }
