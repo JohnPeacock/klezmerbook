@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.18.2"
 
 % same song as Kammen Vol. 1, No. 20
 

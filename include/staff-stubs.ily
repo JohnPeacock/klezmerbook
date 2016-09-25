@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.18.2"
 
 % stubs just in case a particular score doesn't define what we need
 %

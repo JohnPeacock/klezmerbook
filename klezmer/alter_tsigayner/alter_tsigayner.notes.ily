@@ -1,18 +1,29 @@
-\version "2.18.0"
+\version "2.18.2"
 
-bandmNV =  {
+bandmNV = {
+    \time 4/4
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+
+    \time 2/4
+    s2 | s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 | s2 |
+
     \tempo \tempostring
     \time 2/4
-    s4 s4 |
+    s2 |
     \markA \positionA
     \repeat volta 2 {
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
+
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
-        s2 | s2 |
+        s2 | s2 | s2 | s2 |
     }
     \alternative {
         { s2 | s2 | }
@@ -33,17 +44,11 @@ bandmNV =  {
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
 
-        s2 | s2 | s2 | s2 |
+        s2 | s2 |
     }
     \alternative {
-        {
-            s2 |
-            s2 |
-        }
-        {
-            s2 |
-            s2 |
-        }
+        { s2 | s2 | }
+        { s2 | s2 | }
     }
 
     \bar "|."
@@ -56,10 +61,22 @@ bandm =  \context Voice = "bandmv" {
 }
 
 metronome =  \context Voice = "metronome" {
+    \time 4/4
+    s1 |
+    \tempo 4 = 100
+    \time 4/4
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+
     \time 2/4
-    s4
+    s2 | s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 | s2 |
+
     \tempo 4 = 135
-    s4
+    \time 2/4
+    s2 |
     \repeat volta 2 {
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
@@ -69,63 +86,109 @@ metronome =  \context Voice = "metronome" {
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
     }
-    \alternative { { s2 | s2 | } { s2 | s2 | } }
+    \alternative {
+        { s2 | s2 | }
+        { s2 | s2 | }
+    }
+
     \repeat volta 2 {
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
+
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
         s2 | s2 | s2 | s2 |
+
         s2 | s2 |
     }
-    \alternative { { s2 | s2 | } { s2 | s2 | } }
+    \alternative {
+        { s2 | s2 | }
+        { s2 | s2 | }
+    }
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 melodynotes =  {
+    \key c \minor
+    \time 4/4
+    g2 ~ \tuplet 3/2 { g8 a8 b8 } \tuplet 3/2 { c'8 d'8 ees'8 } |
+    \tuplet 3/2 { fis'8 \grace { a'16 } g'8 g'8 } g'8 g'8 g'8 g'8 ~ g'4\fermata |
+    g'2 ~ \tuplet 3/2 { g'8 a'8 b'8 } \tuplet 3/2 { c''8 d''8 ees''8 } |
+    e''8 \grace { g''16 } f''8 f''8 f''8 ~ f''2 |
+
+    \tuplet 3/2 { fis''8 ees''8 d''8 } \tuplet 3/2 { fis''8 ees''8 d''8 }
+        \grace { d'' } \tuplet 3/2 { g''8 fis''8 ees''8 }
+        \tuplet 3/2 { ees''8 d''8 c''8 } |
+    \tuplet 3/2 { c''8 c''8 c''8 } \tuplet 3/2 { c''8 g'8 g'8 } c''2 ~ |
+    c''2. r4 |
+    R1 |
+
+    \time 2/4
+    c'''2 |
+    \tuplet 3/2 { c'''8 bes''8 a''8 } \tuplet 3/2 { c'''8 bes''8 a''8 } |
+    \tuplet 3/2 { c'''8 bes''8 a''8 } \tuplet 3/2 { c'''8 bes''8 a''8 } |
+    aes''8 aes''8 aes''4 ~ |
+    aes''2  |
+
+    \tuplet 3/2 { aes''8 g''8 f''8 } \tuplet 3/2 { aes''8 g''8 f''8 } |
+    \tuplet 3/2 { aes''8 g''8 f''8 } \tuplet 3/2 { aes''8 g''4 } |
+    \grace { f''16 } g''8 g''8 ~ g''4 ~ |
+    g''2 |
+
+    fis''4. ees''8 |
+    d''8 c''8 \tuplet 3/2 { c''8 d''8 ees''8 } |
+    g''2 ~ |
+    g''2 |
+
+    fis''2 |
+    \tuplet 3/2 { ees''8 d''8 c''8 } \tuplet 3/2 { c''8 g'8 c''8 ( ~ } |
+    c''2 ~ |
+    c''2 |
+    c'''2\fermata ) |
+
     \key d \minor
     \time 2/4
 
-    s4 c'4 (
+    r4 c'4 (
 
     \repeat volta 2 {
         f'2 ~ |
         f'2 ) |
         r8 f'8 g'8 [ f'8 ] |
         g'8 [ f'8 ] g'8 [ f'8 ] |
+
         g'8 [ f'8 ] a'4 ~ |
         a'2 | \break
-
         r8 a'8 bes'8 [ a'8 ] |
         bes'8 [ a'8 ] bes'8 [ a'8 ] |
-	bes'8 [ a'8 ] c''4 ~ |
-        c''2 | \break
 
+        bes'8 [ a'8 ] c''4 ~ |
+        c''2 | \break
         r8 c''8 d''8 [ c''8 ] |
         d''8 [ c''8 ] d''8 [ c''8 ] |
+
         d''8 [ c''8 ] ees''4 ~ |
         ees''2 | \break
-
 	r2 |
         r8 f'8 bes'8 [ c''8 ] |
+
         des''4. bes'8 ~ |
         bes'2 |
-% measure 17
-        r8 des''8   c''8[ bes'8 ] |
-          des''8[ des''8 ]   c''8[ bes'8 ] |
+        r8 des''8   c''8 [ bes'8 ] |
+        des''8 [ des''8 ]   c''8 [ bes'8 ] |
+
         c''4. a'8 ~ |
         a'2 |
-% measure 21
-        r8 c''8   bes'8[ a'8 ] |
-          c''8[ c''8 ]   bes'8[ a'8 ] |
+        r8 c''8   bes'8 [ a'8 ] |
+        c''8 [ c''8 ]   bes'8 [ a'8 ] |
+
         bes'4. g'8 ~ |
         g'2 |
-% measure 25
-        r8 d''8   c''8[ bes'8 ] | 
-          a'8[ f'8 ]   g'8[ e'8 ] |
+        r8 d''8   c''8 [ bes'8 ] | 
+        a'8 [ f'8 ]   g'8 [ e'8 ] |
     }
     \alternative {
         {
@@ -141,53 +204,58 @@ melodynotes =  {
     \key f \minor
 
     \repeat volta 2 {
-% measure 31
         c'2 ~ |
-          c'8[ des'8 ]   e'8[ f'8 ] |
+        c'8 d'8 e'8 f'8 |
         g'8 aes'4. ~ |
-	aes'2 |
-% measure 35
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-        g'2 |
-        r8   e'16[ g'16 ]   f'16[ e'16 des'8 ] |
-% measure 39
-        c'4 des'4 |
-        e'4 f'4 |
-          fis'8[ g'8 ]   g'8[ g'8 ] |
-        g'2 |
-% measure 43
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-          e'16[ f'16 g'16 aes'16 ]   g'16[ f'16 e'8 ] |
-        f'4. c''8 |
-        \tuplet 3/2 {   c''8[ b'8 aes'8 ] } \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-% measure 47
+	aes'4. aes'8 |
+
+        \tuplet 3/2 { aes'4 g'4 f'4 } |
+        aes'8 g'4 f'8 |
+        e'2 ~ |
+        e'2 |
+
         c'2 ~ |
-          c'8[ des'8 ]   e'8[ f'8 ] |
-	g'8 aes'4. ~ |
-	aes'2 |
-% measure 51
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
+        c'8 d'8 e'8 f'8 |
+        fis'8 g'4. ~ |
+        g'4. g'8 |
+
+        g'4 f'8 e'8 |
+        e'8 d'4 c'8 |
+        f'2 ~ |
+        f'4. c'8 |
+
+        c'2 ~ |
+        c'8 [ des'8 ] e'8 [ f'8 ] |
+        g'8 aes'4. ~ |
+	aes'4. aes'8 |
+
+	\tuplet 3/2 { aes'4 g'4 f'4 }
+	\tuplet 3/2 { aes'4 g'4 f'4 }
         bes'2 |
-        r8 bes8   des'8[ f'8 ] |
-% measure 55
-        bes'4   f'8[ bes'8 ~ ] |
-          bes'8[ g'16 bes'16 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-	aes'4   f'8[ aes'8 ~ ] |
- 	 aes'8[ aes'8 ]   g'8[ f'8 ] |
-% measure 59
-        g'4   c'8[ g'8 ~ ] |
-          g'8[ g'8 ]   f'8[ e'8 ] |
+
+        r8 bes'8 g'8 aes'8 |
+        bes'8 aes'8 aes'8 g'8 |
+        r8 f'8 f'8 g'8 |
+        aes'8 g'8 g'8 f'8 |
+        r8 e'8 e'8 f'8 |
+        g'8 e'8 d'8 cis'8 |
+
+%%        r8 bes8 des'8 [ f'8 ] |
+%%        bes'4 f'8 [ bes'8 ~ ] |
+%%        bes'8 [ g'16 bes'16 ] \tuplet 3/2 { aes'8 [ g'8 f'8 ] } |
+%%        aes'4 f'8 [ aes'8 ~ ] |
+%%        aes'8 [ aes'8 ] g'8 [ f'8 ] |
+%%        g'4 c'8 [ g'8 ~ ] |
+%%        g'8 [ g'8 ] f'8 [ e'8 ] |
     }
     \alternative {
         {
             f'2 |
-            r8   e'16[ g'16 ]   f'16[ e'16 des'8 ] |
+            r8 e'16 [ g'16 ] f'16 [ e'16 des'8 ] |
         }
         {
+            f'2 ~ |
             f'2 |
-            r8 c'8 d'8 e'8 |
         }
     }
 }
@@ -277,105 +345,6 @@ trombonenotesmidi =  {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 euphoniumnotes =  {
-    \key d \minor
-    \time 2/4
-    s4 r4 |
-    \repeat volta 2 {
-        f4 c4 |
-        f4 a4 |
-        f2 ~ |
-        f2 |
-
-        a4 f4 |
-        a4 c'4 |
-        a2 ~ |
-        a2 |
-
-        c'4 a4 |
-        c'4 f'4 |
-        c'2 ~ |
-        c'2 |
-
-        f4 c4 |
-        f4 c4 |
-        bes,4 f4 |
-        bes,4 f4 |
-
-        bes,4 c4 |
-        des4 e4 |
-        f4 c4 |
-        f4 c4 |
-
-        c'4 a4 |
-        g4 f4 |
-        c4 g,4 |
-        c4 g,4 |
-
-        c4 bes,4 |
-        aes,4 g,4 |
-    }
-    \alternative {
-        {
-            f,4 c4 |
-            f,4 r4 |
-        }
-        {
-            f,4 g,4 |
-            a,4 c4 |
-        }
-    }
-
-    \key f \minor
-
-    \repeat volta 2 {
-        f,4 aes,4 |
-        f,4 c4 |
-        f,4 aes,4 |
-        f,4 c4 |
-
-        f,4 aes,4 |
-        f,4 c4 |
-        c4 g,4 |
-        c4 g4 |
-
-        c4 g,4 |
-        c4 g4 |
-        c4 g,4 |
-        c4 g4 |
-
-        c4 bes,4 |
-        aes,4 g4 |
-        f,4 c4 |
-        f,4 aes,4 |
-
-        f,4 c4 |
-        f,4 aes,4 |
-        f,4 c4 |
-        f,4 aes,4 |
-
-        f,4 g,4 |
-        aes,4 a,4 |
-        bes,4 f,4 |
-        bes,4 f,4 |
-
-        bes,4 bes,4 |
-        bes,4 g,4 |
-        f,4 c4 |
-        f,4 g,8 [ bes,8 ] |
-
-        c4 g,4 |
-        c4 g,4 |
-    }
-    \alternative {
-        {
-            f,4 c4 |
-            f,4 c4 |
-        }
-        {
-            f,4 g,4 |
-            c2 |
-        }
-    }
 }
 
 euphoniumnotesmidi =  {
@@ -395,10 +364,23 @@ violinnotesmidi =  {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 chordletters = \chordmode {
-    s4 s4
+    \time 4/4
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+
+    \time 2/4
+    s2 | s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 |
+    s2 | s2 | s2 | s2 | s2 |
+
+    s2 |
     \repeat volta 2 {
-        f2 | f2 | f2 | f2 | f2 | f2 | f2 | f2 | f2 | f2 | f2 | f2 |
+        f2 | f2 | f2 | f2 |
+        f2 | f2 | f2 | f2 |
+        f2 | f2 | f2 | f2 |
         f2:7 | f2:7 | f2:7 | f2:7 |
+
         bes2:min | bes2:min | bes2:min | bes2:min |
         f2 | f2 | f2 | f2 |
         c2:7 | c2:7 | c2:7 | c2:7 |
@@ -418,12 +400,17 @@ chordletters = \chordmode {
         }
     }
     \repeat volta 2 {
-        f2:min f2:min f2:min f2:min f2:min f2:min
-        c2:7 c2:7 c2:7 c2:7 c2:7 c2:7 c2:7 c2:7
-        f2:min f2:min f2:min f2:min f2:min f2:min f2:min f2:min
-        bes2:min bes2:min bes2:min bes2:min
-        f2:min f2:min
-        c2:7 c2:7
+        f2:min | f2:min | f2:min | f2:min |
+        f2:min | f2:min | c2:7 | c2:7 |
+        c2:7 | c2:7 | c2:7 | c2:7 |
+
+        c2:7 | c2:7 | f2:min | f2:min |
+        f2:min | f2:min | f2:min | f2:min |
+        f2:min f2:min | bes2:min | bes2:min |
+        bes2:min | bes2:min | f2:min | f2:min |
+
+        c2:7 |
+%        c2:7 |
     }
     \alternative {
         {
@@ -436,7 +423,7 @@ chordletters = \chordmode {
             \chordChangesOff
             f2:min
             \chordChangesOn
-            c2:7
+            f2:min
         }
     }
 }
@@ -456,8 +443,6 @@ basschordletters = \chordletters
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 guitarnotes =  {
-    \key d \minor
-    \time 2/4
 }
 
 guitarnotesmidi =  {
@@ -467,110 +452,6 @@ guitarnotesmidi =  {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 bassnotes =  {
-    \key d \minor
-    \time 2/4
-    s4 r4 |
-    \repeat volta 2 {
-        f4 c4 |
-        f4 a4 |
-        f2 ~ |
-        f2 |
-
-        a4 f4 |
-        a4 c'4 |
-        a2 ~ |
-        a2 |
-
-        c'4 a4 |
-        c'4 f'4 |
-        c'2 ~ |
-        c'2 |
-
-	s2 |
-
-        f4 c4 |
-        f4 c4 |
-        bes,4 f4 |
-        bes,4 f4 |
-
-	% fixme
-	s2 |
-
-        bes,4 c4 |
-        des4 e4 |
-        f4 c4 |
-        f4 c4 |
-
-        c'4 a4 |
-        g4 f4 |
-        c4 g,4 |
-        c4 g,4 |
-
-        c4 bes,4 |
-        aes,4 g,4 |
-    }
-    \alternative {
-        {
-            f,4 c4 |
-            f,4 r4 |
-        }
-        {
-            f,4 g,4 |
-            a,4 c4 |
-        }
-    }
-
-    \key f \minor
-
-    \repeat volta 2 {
-        f,4 aes,4 |
-        f,4 c4 |
-        f,4 aes,4 |
-        f,4 c4 |
-
-        f,4 aes,4 |
-        f,4 c4 |
-        c4 g,4 |
-        c4 g4 |
-
-        c4 g,4 |
-        c4 g4 |
-        c4 g,4 |
-        c4 g4 |
-
-        c4 bes,4 |
-        aes,4 g,4 |
-        f,4 c4 |
-        f,4 aes,4 |
-
-        f,4 c4 |
-        f,4 aes,4 |
-        f,4 c4 |
-        f,4 aes,4 |
-
-        f,4 g,4 |
-        aes,4 a,4 |
-        bes,4 f,4 |
-        bes,4 f,4 |
-
-        bes,4 bes,4 |
-        bes,4 g,4 |
-        f,4 c4 |
-        f,4 g,8 [ bes,8 ] |
-
-        c4 g,4 |
-        c4 g,4 |
-    }
-    \alternative {
-        {
-            f,4 c4 |
-            f,4 c4 |
-        }
-        {
-            f,4 g,4 |
-            c2 |
-        }
-    }
 }
 
 bassnotesmidi =  {
@@ -580,111 +461,6 @@ bassnotesmidi =  {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 pianorightnotes =  {
-    \key d \minor
-    \time 2/4
-
-    s4 c'4
-
-    \repeat volta 2 {
-% measure 1
-        < f' a' c''>2 ~ |
-
-
-        < f' a' c''>2 |
-        r8 f'8   g'8[ f'8 ] |
-          g'8[ f'8 ]   g'8[ f'8 ] |
-% measure 5
-        < a' c'' f'' >2 ~ |
-        < a' c'' f'' >2 |
-        r8 a'8   bes'8[ a'8 ] |
-          bes'8[ a'8 ]   bes'8[ a'8 ] |
-% measure 9
-        < c'' f'' a'' >2 ~ |
-        < c'' f'' a'' >2 |
-        r8 c''8   d''8[ c''8 ] |
-          d''8[ c''8 ]   d''8[ c''8 ] |
-% measure 13
-        ees''2 |
-        r8 f'8   bes'8[ c''8 ] |
-        des''4. bes'8 ~ |
-        bes'2 |
-% measure 17
-        r8 des''8   c''8[ bes'8 ] |
-          des''8[ des''8 ]   c''8[ bes'8 ] |
-        c''4. a'8 ~ |
-        a'2 |
-% measure 21
-        r8 c''8   bes'8[ a'8 ] |
-          c''8[ c''8 ]   bes'8[ a'8 ] |
-        bes'4. g'8 ~ |
-        g'2 |
-% measure 25
-        r8 d''8   c''8[ bes'8 ] | 
-          a'8[ f'8 ]   g'8[ e'8 ] |
-    }
-    \alternative {
-        {
-            f'2 ~ |
-            f'4 c'4 |
-        }
-        {
-            f'2 |
-            r8   e'16[ g'16 ]   f'16[ e'16 des'8 ] |
-        }
-    }
-
-    \key f \minor
-
-    \repeat volta 2 {
-% measure 31
-        c'2 ~ |
-          c'8[ des'8 ]   e'8[ f'8 ] |
-        g'8 aes'4. ~ |
-	aes'2 |
-% measure 35
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-        g'2 |
-        r8   e'16[ g'16 ]   f'16[ e'16 des'8 ] |
-% measure 39
-        c'4 des'4 |
-        e'4 f'4 |
-          fis'8[ g'8 ]   g'8[ g'8 ] |
-        g'2 |
-% measure 43
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-          e'16[ f'16 g'16 aes'16 ]   g'16[ f'16 e'8 ] |
-        f'4. c''8 |
-        \tuplet 3/2 {   c''8[ b'8 aes'8 ] } \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-% measure 47
-        c'2 ~ |
-          c'8[ des'8 ]   e'8[ f'8 ] |
-	g'8 aes'4. ~ |
-	aes'2 |
-% measure 51
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-          g'8[ aes'8 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-        bes'2 |
-        r8 bes8   des'8[ f'8 ] |
-% measure 55
-        bes'4   f'8[ bes'8 ~ ] |
-          bes'8[ g'16 bes'16 ] \tuplet 3/2 {   aes'8[ g'8 f'8 ] } |
-	aes'4   f'8[ aes'8 ~ ] |
- 	 aes'8[ aes'8 ]   g'8[ f'8 ] |
-% measure 59
-        g'4   c'8[ g'8 ~ ] |
-          g'8[ g'8 ]   f'8[ e'8 ] |
-    }
-    \alternative {
-        {
-            f'2 |
-            r8   e'16[ g'16 ]   f'16[ e'16 des'8 ] |
-        }
-        {
-            f'2 |
-            r8 c'8 d'8 e'8 |
-        }
-    }
 }
 
 pianorightuppernotes =  {
@@ -731,44 +507,213 @@ drumslowmidi = \drummode {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 leadsheetnotes =  {
-    \melodynotes
+    \key c \minor
+    \time 4/4
+    g2 ~ \tuplet 3/2 { g8 a8 b8 } \tuplet 3/2 { c'8 d'8 ees'8 } |
+    \tuplet 3/2 { fis'8 \grace { a'16 } g'8 g'8 } g'8 g'8 g'8 g'8 ~ g'4\fermata |
+    g'2 ~ \tuplet 3/2 { g'8 a'8 b'8 } \tuplet 3/2 { c''8 d''8 ees''8 } |
+    e''8 \grace { g''16 } f''8 f''8 f''8 ~ f''2 |
+
+    \tuplet 3/2 { fis''8 ees''8 d''8 } \tuplet 3/2 { fis''8 ees''8 d''8 }
+        \grace { d'' } \tuplet 3/2 { g''8 fis''8 ees''8 }
+        \tuplet 3/2 { ees''8 d''8 c''8 } |
+    \tuplet 3/2 { c''8 c''8 c''8 } \tuplet 3/2 { c''8 g'8 g'8 } c''2 ~ |
+    c''2. r4 |
+    R1 |
+
+    \time 2/4
+    c'''2 |
+    \tuplet 3/2 { c'''8 bes''8 a''8 } \tuplet 3/2 { c'''8 bes''8 a''8 } |
+    \tuplet 3/2 { c'''8 bes''8 a''8 } \tuplet 3/2 { c'''8 bes''8 a''8 } |
+    aes''8 aes''8 aes''4 ~ |
+    aes''2  |
+
+    \tuplet 3/2 { aes''8 g''8 f''8 } \tuplet 3/2 { aes''8 g''8 f''8 } |
+    \tuplet 3/2 { aes''8 g''8 f''8 } \tuplet 3/2 { aes''8 g''4 } |
+    \grace { f''16 } g''8 g''8 ~ g''4 ~ |
+    g''2 |
+
+    fis''4. ees''8 |
+    d''8 c''8 \tuplet 3/2 { c''8 d''8 ees''8 } |
+    g''2 ~ |
+    g''2 |
+
+    fis''2 |
+    \tuplet 3/2 { ees''8 d''8 c''8 } \tuplet 3/2 { c''8 g'8 c''8 \( ~ } |
+    c''2 ~ |
+    c''2 |
+    c'''2\fermata \) |
+
+    \key d \minor
+    \time 2/4
+
+    r4 c'4 (
+
+    \repeat volta 2 {
+        f'2 ~ |
+        f'2 ) |
+        r8 f'8 g'8 [ f'8 ] |
+        g'8 [ f'8 ] g'8 [ f'8 ] |
+
+        g'8 [ f'8 ] a'4 ~ |
+        a'2 | \break
+        r4 bes'8 [ a'8 ] |
+        bes'8 [ a'8 ] bes'8 [ a'8 ] |
+
+        bes'8 [ a'8 ] c''4 ~ |
+        c''2 | \break
+        r8 c''8 d''8 [ c''8 ] |
+        d''8 [ c''8 ] d''8 [ c''8 ] |
+
+        d''8 [ c''8 ] ees''4 ~ |
+        ees''2 | \break
+	r2 |
+        r4 bes'8 [ c''8 ] |
+
+        des''4. bes'8 ~ |
+        bes'2 |
+        r8 des''8   c''8 [ bes'8 ] |
+        des''8 [ des''8 ]   c''8 [ bes'8 ] |
+
+        c''4. a'8 ~ |
+        a'2 |
+        r8 c''8   bes'8 [ a'8 ] |
+        c''8 [ c''8 ]   bes'8 [ a'8 ] |
+
+        bes'4. g'8 ~ |
+        g'2 |
+        r8 d''8   c''8 [ bes'8 ] | 
+        a'8 [ f'8 ]   g'8 [ e'8 ] |
+    }
+    \alternative {
+        {
+            f'2 ~ |
+            f'4 r8 c'8 |
+        }
+        {
+            f'2 |
+            r4 r8 c'8 |
+        }
+    }
+
+    \key f \minor
+
+    \repeat volta 2 {
+        c'2 ~ |
+        c'8 d'8 e'8 f'8 |
+        g'8 aes'4. ~ |
+	aes'4. aes'8 |
+
+        \tuplet 3/2 { aes'4 g'4 f'4 } |
+        aes'8 g'4 f'8 |
+        e'2 ~ |
+        e'2 |
+
+        c'2 ~ |
+        c'8 d'8 e'8 f'8 |
+        fis'8 g'4. ~ |
+        g'4. g'8 |
+
+        g'4 f'8 e'8 |
+        e'8 d'4 c'8 |
+        f'2 ~ |
+        f'4. c'8 |
+
+        c'2 ~ |
+        c'8 [ des'8 ] e'8 [ f'8 ] |
+        g'8 aes'4. ~ |
+	aes'4. aes'8 |
+
+	\tuplet 3/2 { aes'4 g'4 f'4 }
+	\tuplet 3/2 { aes'4 g'4 f'4 }
+        bes'2 |
+
+        r8 bes'8 g'8 aes'8 |
+        bes'8 aes'8 aes'8 g'8 |
+        r8 f'8 f'8 g'8 |
+        aes'8 g'8 g'8 f'8 |
+        r8 e'8 e'8 f'8 |
+        g'8 e'8 d'8 cis'8 |
+
+%%        r8 bes8 des'8 [ f'8 ] |
+%%        bes'4 f'8 [ bes'8 ~ ] |
+%%        bes'8 [ g'16 bes'16 ] \tuplet 3/2 { aes'8 [ g'8 f'8 ] } |
+%%        aes'4 f'8 [ aes'8 ~ ] |
+%%        aes'8 [ aes'8 ] g'8 [ f'8 ] |
+%%        g'4 c'8 [ g'8 ~ ] |
+%%        g'8 [ g'8 ] f'8 [ e'8 ] |
+    }
+    \alternative {
+        {
+            f'2 |
+            r2 |
+        }
+        {
+            f'2 ~ |
+            f'2 |
+        }
+    }
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% can't work until I get the music for the intro.
-
-%    Dort oyf a berg- e- le un- ter dem fray- en him- l,
-%    Vayt fun dem rash- ik- n shtots ge- tum- l
-%    Shteyt zikh a khat- ke- le a- leyn oyf dem ort,
-%    An al- ter tsi- gay- ner voynt dort.
-
-%dort hern zikh tener zeyer zise,
-%vos veynen in minor,
-%ven af zayn fidl fargeyt zikh
-%der alter tsigayner,
-%mit zayn gantsn fayer un bren,
-%nor vi a tsigayner ken.
-
 textl = \lyricmode {
-a tsi- gay- ner mel- o- die iz a- zoy sheyn.
-_ hert ir zikh, far- gest ir zikh nit, neyn,
-vayl zi iz var- em, harts- ik, ful mit kheyn,
-_ _ a modne kraft.
-zi git aykh lib- e un oykh laydn- shaft.
-hert ir es nor eyn mol, git es keyn ru.
-s’farkisheft aykh di melodie.
 
+    Dort oyf a berg- e- le un- ter dem fray- en him- l,
+    Vayt fun dem rash- ik- n shtots ge- rum- l
+    Shteyt zikh a khat- ke- le a- leyn oyf an ort,
+    An al- ter tsi- gay- ner voynt dort.
+
+    dort her- n zikh ten- er zey- er zi- se,
+    vos veyn- en in mi- nor,
+    ven af zayn fidl far- geyt zikh
+    der alt- er tsi- gay- ner,
+    mit zayn gants- n fay- er un bren,
+    nor vi a tsi- gayn- er ken. __
+
+    _ a tsi- gay- ner mel- o- die iz a- zoy sheyn.
+    hert ir zikh, far- gest ir zikh nit, neyn,
+    vayl zi iz var- em, harts- ik, ful mit kheyn,
+    a mod- ne kraft.
+    zi git aykh lib- e un oykh laydn- shaft.
+    hert ir es nor eyn mol, git_es keyn ru.
+    s’far- kish- eft aykh di mel- o- die. ven
+
+    _
+
+    ven der tsi- gayn- er shpilt zikh zayn lid- l,
+    in harts git a bri.
+    fun zayn fid- l der klang
+    der- vekt dayn ne- shom- es fa- lang.
+    dayn blut es kokht un es tsit,
+    zayn fid- l dem boyg- n er tsit.
+
+    nemt in di him- len shveb- n,
+    es glust zikh nor tsum leb- n
+    dos leb- n vert dan a- zoy gut
+    dos iz dem alt- n tsi- gayn- ers lid.
 }
 textlb = \lyricmode {
-ven ir hert es, dakht zikh aykh,
-s’iz prost naiv,
- un ir hot dan gornit keyn bagrif,
-vi es rirt on di neshome tif.
-fun yeder zayt zi filt aykh on
-mit lust un freylekhkayt.
-onhaltn vilt ir eybik ot a di
-di klangen fun di melodie.
+    _ _ _ _ _ _ _ _ _ _ _ _ _
+    _ _ _ _ _ _ _ _ _ _
+    _ _ _ _ _ _ _ _ _ _ _
+    _ _ _ _ _ _ _ _
+
+    _ _ _ _ _ _ _ _ _ _
+    _ _ _ _ _ _
+    _ _ _ _ _ _ _
+    _ _ _ _ _ _
+    _ _ _ _ _ _ _ _
+    _ _ _ _ _ _ _
+
+    _ _ ir hert es, dakht zikh aykh,
+    s’iz prost na- iv,
+    un ir hot dan gorn- it keyn ba- grif,
+    _ vi es rirt on di ne- sho- me tif.
+    fun ye- der zayt
+    zi filt aykh on_mit lust un frey- lekh- kayt.
+    on- haltn vilt ir ey- bik ot a di
+    di klang- en fun di mel- o- _ _ die.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

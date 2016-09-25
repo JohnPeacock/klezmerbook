@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.18.2"
 % staff-score.lyh not needed for this
 emptystaff =  \context Staff = "melodystaff" <<
     \override Staff.Stem.transparent = ##t

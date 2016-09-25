@@ -1,4 +1,4 @@
-\version "2.14.0"
+\version "2.18.2"
 
 \include "alter_tsigayner.header.ily"
 \include "part-staffsize.ily"
@@ -19,7 +19,7 @@ instrumentMarkup = \leadSheetInstrumentMarkup
         \include "score-header.ily"
         \layout {
             \include "translators.ily"
-            system-count = #8
+            system-count = #16
         }
     }
 }

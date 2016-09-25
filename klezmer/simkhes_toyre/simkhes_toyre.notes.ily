@@ -1,4 +1,4 @@
-\version "2.18.0"
+\version "2.18.2"
 
 bandmintro = {
     s2 | \breakINone s2 | \breakINtwo s2 | \breakINtre s2 | \breakINfor
