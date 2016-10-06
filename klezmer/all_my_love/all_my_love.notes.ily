@@ -191,11 +191,21 @@ flutenotesmidi = \transpose c c' {
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+altoflutenotes = \transpose g c {
+    \flutenotes
+}
+
+altoflutetenorharmony = \transpose g c {
+    \tenorforflutenotes
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 clarinetnotes = \transpose bes c'' {
     \melodynotes
 }
 
-clarinetnotesmidi = \transpose bes c' {
+clarinetnotesmidi = \transpose bes c'' {
     \melodynotesmidi
 }
 
@@ -299,6 +309,7 @@ leadsheetchordletters = \chordletters
 pianochordletters = \chordletters
 melodychordletters = \chordletters
 basschordletters = \chordletters
+altoflutechordletters = \transpose g c \chordletters
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
