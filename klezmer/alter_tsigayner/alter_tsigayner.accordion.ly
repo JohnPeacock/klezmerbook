@@ -15,11 +15,11 @@ instrumentMarkup = \accordionInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \pianosubscore
+        \violinsubscore
         \include "score-header.ily"
         \layout {
             \include "translators.ily"
-            system-count = #8
+            system-count = #16
         }
     }
 }

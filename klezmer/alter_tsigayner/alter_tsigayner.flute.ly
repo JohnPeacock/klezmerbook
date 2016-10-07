@@ -19,7 +19,7 @@ instrumentMarkup = \fluteInstrumentMarkup
         \include "score-header.ily"
         \layout {
             \include "translators.ily"
-            system-count = #8
+            system-count = #16
         }
     }
 }

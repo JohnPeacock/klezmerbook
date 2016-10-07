@@ -27,7 +27,7 @@ preintro = { s2. }
 metronome = {
     \time 3/4
     \preintro
-    \tempo 4 = 180
+    \tempo 4 = 120
     \bandm
     \bandm
     \bandm

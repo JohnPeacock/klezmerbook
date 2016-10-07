@@ -6,7 +6,7 @@
 
 tempoprefix = \markup { "" }
 temponote = \quarternote
-tempovalue = \markup "180"
+tempovalue = \markup "120"
 
 \include "tempo-strings.ily"
 \include "positions.ily"

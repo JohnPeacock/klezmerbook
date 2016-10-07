@@ -91,6 +91,8 @@ all:: toc body
 
 clean::
 	$(RM) -rf target
+	$(RM) -f toc.shtml
+	$(RM) -f body.shtml
 
 toc:: toc.shtml
 
