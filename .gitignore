@@ -3,6 +3,8 @@
 *.midi
 *.ps
 today.lyh
+body.shtml
+toc.shtml
 #*#
 .#*
 target/
