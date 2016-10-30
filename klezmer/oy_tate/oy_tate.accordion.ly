@@ -21,26 +21,19 @@ positionD = {
   \KeyAlignMark
 }
 
-breakB = { \pageBreak }
+%breakB = { \pageBreak }
 
 \include "oy_tate.notes.ily"
 \include "staves-and-scores.ily"
 
 instrumentMarkup = \accordionInstrumentMarkup
 
-leadsheetsubscore = <<
+accordionsubscore = <<
     \new ChordNames \with {
     } \chordmode {
         \leadsheetbandmNV
     }
     \leadsheetchordnames
-
-    \new FretBoards \with {
-        instrumentName = ""
-        shortInstrumentName = ""
-    } {
-        \guitarchordletters
-    }
 
     \new Staff \with {
         instrumentName = ""
@@ -56,7 +49,7 @@ leadsheetsubscore = <<
 \book {
     \include "book-header.ily"
     \score {
-        \leadsheetsubscore
+        \accordionsubscore
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

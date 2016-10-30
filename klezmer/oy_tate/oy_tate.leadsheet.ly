@@ -21,8 +21,6 @@ positionD = {
   \KeyAlignMark
 }
 
-breakB = { \pageBreak }
-
 \include "oy_tate.notes.ily"
 \include "staves-and-scores.ily"
 
@@ -34,13 +32,6 @@ leadsheetsubscore = <<
         \leadsheetbandmNV
     }
     \leadsheetchordnames
-
-    \new FretBoards \with {
-        instrumentName = ""
-        shortInstrumentName = ""
-    } {
-        \guitarchordletters
-    }
 
     \new Staff \with {
         instrumentName = ""

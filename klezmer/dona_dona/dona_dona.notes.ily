@@ -548,34 +548,21 @@ trumpetnotesmidi = \transpose bes, c {
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-trombonesectiona = {
-    s1 | s1 | s1 | s1 |
-    s1 | s1 | s1 | s1 |
-    s1 | s1 | s1 | s1 |
-    s1 | s1 | s1 | s1 |
-
-    s1 | s1 | s1 | s1 |
-    s1 | s1 | s1 | s1 |
-}
-
-trombonecoda = {
-}
-
-trombonenotes = {
+trombonenotes = \transpose c c, {
     \key f \major
     \time 4/4
-    \trombonesectiona
-    \trombonecoda
+    \melodysectiona
+    \melodycoda
 }
 
-trombonenotesmidi = {
+trombonenotesmidi = \transpose c c, {
     \key f \major
     \time 4/4
     \preintro
-    \trombonesectiona
-    \trombonesectiona
-    \trombonesectiona
-    \trombonecoda
+    \melodysectiona
+    \melodysectiona
+    \melodysectiona
+    \melodycoda
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

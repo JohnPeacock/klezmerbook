@@ -16,7 +16,7 @@ instrumentMarkup = \tromboneInstrumentMarkup
 \book {
     \include "book-header.ily"
     \score {
-        \leadsheetsubscorewithlyricsandpiano
+        \trombonesubscore
         \include "score-header.ily"
         \layout {
             \include "translators.ily"

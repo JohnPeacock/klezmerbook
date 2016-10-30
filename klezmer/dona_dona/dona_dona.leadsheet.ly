@@ -31,15 +31,6 @@ leadsheetsubscorewithguitarnotab = <<
         \guitarchordletters
     }
 
-    \new FretBoards \with {
-        chordChanges = ##t
-        instrumentName = ""
-        shortInstrumentName = ""
-        \override FretBoard #'size = #'0.85
-    } {
-        \guitarchordletters
-    }
-
     \new Staff \with {
         instrumentName = ""
         shortInstrumentName = ""

@@ -37,7 +37,6 @@ guitarsubscorenotab = <<
 
     \new ChordNames \with {
         chordChanges = ##t
-        minimumVerticalExtent = #'(-1.0 . 1.0)
         \override VoltaBracket #'minimum-space = #2
         \override VoltaBracket #'padding = #.5
     } \chordmode {
