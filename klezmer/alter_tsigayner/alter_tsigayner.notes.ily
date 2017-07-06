@@ -436,7 +436,7 @@ basslinemidi =  {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 flutenotes =  \transpose c c' {
-    \melodynotes
+    \rangeadjustednotes
 }
 
 flutenotesmidi =  {
