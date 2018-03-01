@@ -75,7 +75,7 @@ melodysectiona = {
 
     d''2 d''2 |
     c''8 d''8 c''8 bes'8 c''4 a'4 |
-    g'8 a'8 bes'8 g'8 a'8 bes'8 a'8 cis'8 |
+    g'8 a'8 bes'8 g'8 a'8 bes'8 a'8 d'8 |
     g'2. r4 |
 }
 
@@ -112,7 +112,7 @@ harmonysectiona = {
 
     r2 a''8 g''8 g''8 fis''8 |
     ees''8 d''8 ees''8 c''8 d''2 |
-    d''8 ees''8 c''8 d''8 ees''8 f''8 d''8 ees''8 |
+    d''8 ees''8 c''8 d''8 ees''8 fis''8 d''8 ees''8 |
     fis''2. r4 |
 
     r4 bes'4 d''4 bes'4 |
