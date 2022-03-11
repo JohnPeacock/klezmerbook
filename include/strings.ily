@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.22.0"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -18,12 +18,12 @@
 
 % tempo strings
 
-eighthnote = \markup { \override #'(word-space . 0.0) { \note #"8" #0.75 } }
-eighthdotnote = \markup { \override #'(word-space . 0.0) { \note #"8." #0.75 } }
-quarternote = \markup { \override #'(word-space . 0.0) { \note #"4" #0.75 } }
-quarterdotnote = \markup { \override #'(word-space . 0.0) { \note #"4." #0.75 } }
-halfnote = \markup { \override #'(word-space . 0.0) { \note #"2" #0.75 } }
-halfdotnote = \markup { \override #'(word-space . 0.0) { \note #"2." #0.75 } }
+eighthnote = \markup { \override #'(word-space . 0.0) { \note {8} #0.75 } }
+eighthdotnote = \markup { \override #'(word-space . 0.0) { \note {8.} #0.75 } }
+quarternote = \markup { \override #'(word-space . 0.0) { \note {4} #0.75 } }
+quarterdotnote = \markup { \override #'(word-space . 0.0) { \note {4.} #0.75 } }
+halfnote = \markup { \override #'(word-space . 0.0) { \note {2} #0.75 } }
+halfdotnote = \markup { \override #'(word-space . 0.0) { \note {2.} #0.75 } }
 
 largotempoprefix = \markup "Largo"
 largotempovalue = \markup "40-60"
@@ -152,54 +152,54 @@ markupHIV = \markup { \box \bold \huge "H4" }
 markupJIV = \markup { \box \bold \huge "J4" }
 
 % markups with segno
-markupS =    \markup { \musicglyph #"scripts.segno" }
+markupS =    \markup { \musicglyph "scripts.segno" }
 markupSA =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "A" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 markupSB =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "B" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 markupSC =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "C" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 markupSD =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "D" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 markupSE =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "E" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 markupSF =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "F" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 markupSG =   \markup {
   \override #'(baseline-skip . 2.75)
   \center-column {
     { \box \bold \huge "G" }
-    { \musicglyph #"scripts.segno" }
+    { \musicglyph "scripts.segno" }
   }
 }
 
@@ -218,11 +218,11 @@ markupDCALAC = \markup { \italic "D.C. ad lib. al Coda" }
 
 % coda markups
 markupFC =   \markup { \italic "Final Coda" }
-markupTC =   \markup { \italic "To Coda " \hspace #0.2 { \smaller \general-align #Y #-0.65 \musicglyph #"scripts.coda" } }
-markupCT =   \markup { { \smaller \general-align #Y #-0.65 \musicglyph #"scripts.coda" } \italic "To Coda " }
-markupCC =   \markup { { \smaller \general-align #Y #-0.65 \musicglyph #"scripts.coda" } \italic "Coda" }
+markupTC =   \markup { \italic "To Coda " \hspace #0.2 { \smaller \general-align #Y #-0.65 \musicglyph "scripts.coda" } }
+markupCT =   \markup { { \smaller \general-align #Y #-0.65 \musicglyph "scripts.coda" } \italic "To Coda " }
+markupCC =   \markup { { \smaller \general-align #Y #-0.65 \musicglyph "scripts.coda" } \italic "Coda" }
 markupCCRT = \markup {
-    { \smaller \general-align #Y #-0.65 \musicglyph #"scripts.coda" } \italic "Coda Rit." }
+    { \smaller \general-align #Y #-0.65 \musicglyph "scripts.coda" } \italic "Coda Rit." }
 
 % misc markups
 markupFN = \markup { \italic "Fine" }
@@ -267,7 +267,7 @@ markupGlasses =  \markup { \with-dimensions #'(0 . 4.4) #'(0 . 2.5) \postscript 
 % Picture of beaters.  Tells drummer to use beaters not standard sticks.
 markupBeaters = \markup { 
   \with-dimensions #'(0 . 5) #'(0 . 5) 
-  \postscript #"
+  \postscript "
     0 6 translate
     0.8 -0.8 scale
     0 0 0 setrgbcolor
